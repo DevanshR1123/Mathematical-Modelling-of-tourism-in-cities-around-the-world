@@ -29,6 +29,8 @@ def map_path(start, path, time, city):
 
     open(f'./latest_path/{city}.html', 'w+').write(f'<h3>{hnames[city][start]}</h3>' +
                                                    df(zip(name_path, map(lambda x: f'{int(x//1)} hrs {int((x%1)*60)} mins', time)),
-                                                      columns=['Location', 'Time spent'], index=range(1, len(path)+1)).to_html(border=0, classes='tbl'))
+                                                      columns=['Location', 'Time spent'], index=range(1, len(path)+1)).to_html(border=0, classes='tbl') +
+                                                   '<a href="https://github.com/DevanshR1123/Mathematical-Modelling-of-tourism-in-cities-around-the-world">View code on GitHub</a>',
+                                                   )
 
     mp.save(f'./map/{city}.html')
