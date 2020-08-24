@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1306f36c58d246f19a7e7629a775ceb2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1306f36c58d246f19a7e7629a775ceb2" ></div>
+        
+</body>
+<script>    
+    
+            var map_1306f36c58d246f19a7e7629a775ceb2 = L.map(
+                "map_1306f36c58d246f19a7e7629a775ceb2",
+                {
+                    center: [25.2046703, 55.2334585],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_828927643338465bb19606a0609c07c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            map_1306f36c58d246f19a7e7629a775ceb2.fitBounds(
+                [[25.080442599999998, 55.0671498], [25.328898000000002, 55.3997672]],
+                {}
+            );
+        
+    
+            var poly_line_e00c07119940470098ffdbe2b8981eb5 = L.polyline(
+                [[25.1304426, 55.1171498], [25.1335895, 55.1200479], [25.118107, 55.200608], [25.198765, 55.2796053], [25.1951554, 55.2751579], [25.1943843, 55.2735508]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var marker_5323cfbbea364214bf2de423df1809a4 = L.marker(
+                [25.1304426, 55.1171498],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_6042411cc2994689b24f11138a1f0572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5323cfbbea364214bf2de423df1809a4.setIcon(icon_6042411cc2994689b24f11138a1f0572);
+        
+    
+            marker_5323cfbbea364214bf2de423df1809a4.bindTooltip(
+                `<div>
+                     1. Atlantis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d033a6aeeec485181ee98fcd1a5d302 = L.marker(
+                [25.1335895, 55.1200479],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_740a0bcdd6284247aab4622381476dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d033a6aeeec485181ee98fcd1a5d302.setIcon(icon_740a0bcdd6284247aab4622381476dab);
+        
+    
+            marker_4d033a6aeeec485181ee98fcd1a5d302.bindTooltip(
+                `<div>
+                     2. Aquaventure Waterpark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4015f8499c5d49b7b52014a1c4a4fdce = L.marker(
+                [25.118107, 55.200608],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_69e5e9a3576f4a268d3cf941fbe48950 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4015f8499c5d49b7b52014a1c4a4fdce.setIcon(icon_69e5e9a3576f4a268d3cf941fbe48950);
+        
+    
+            marker_4015f8499c5d49b7b52014a1c4a4fdce.bindTooltip(
+                `<div>
+                     3. Mall of the Emirates
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e603c63309145f99babeb8d3a2ed237 = L.marker(
+                [25.198765, 55.2796053],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_00c87da379ab4031b6f82e782a44b9b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e603c63309145f99babeb8d3a2ed237.setIcon(icon_00c87da379ab4031b6f82e782a44b9b5);
+        
+    
+            marker_0e603c63309145f99babeb8d3a2ed237.bindTooltip(
+                `<div>
+                     4. The Dubai Mall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cff21c19f5041e5b8795aab4e86051e = L.marker(
+                [25.1951554, 55.2751579],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_f8749d3d8f404a729d55aefc882f1680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9cff21c19f5041e5b8795aab4e86051e.setIcon(icon_f8749d3d8f404a729d55aefc882f1680);
+        
+    
+            marker_9cff21c19f5041e5b8795aab4e86051e.bindTooltip(
+                `<div>
+                     5. The Dubai Fountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69026f4a53f0433f8d4adec03f0fa2fb = L.marker(
+                [25.1943843, 55.2735508],
+                {}
+            ).addTo(map_1306f36c58d246f19a7e7629a775ceb2);
+        
+    
+            var icon_12a309a479af484f81a342023eb4e925 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69026f4a53f0433f8d4adec03f0fa2fb.setIcon(icon_12a309a479af484f81a342023eb4e925);
+        
+    
+            marker_69026f4a53f0433f8d4adec03f0fa2fb.bindTooltip(
+                `<div>
+                     6. Burj Park by Emaar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

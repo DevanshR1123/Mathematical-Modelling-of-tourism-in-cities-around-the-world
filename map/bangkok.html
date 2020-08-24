@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a26673601d0b4b1789b43d3ade103a51 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a26673601d0b4b1789b43d3ade103a51" ></div>
+        
+</body>
+<script>    
+    
+            var map_a26673601d0b4b1789b43d3ade103a51 = L.map(
+                "map_a26673601d0b4b1789b43d3ade103a51",
+                {
+                    center: [13.76116815, 100.52877624999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d91aa194459040008c8ae6904ad78723 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            map_a26673601d0b4b1789b43d3ade103a51.fitBounds(
+                [[13.654460499999999, 100.4419712], [13.8678758, 100.6155813]],
+                {}
+            );
+        
+    
+            var poly_line_ec119c966bf642d69dfee7e67795bc15 = L.polyline(
+                [[13.7194775, 100.5136345], [13.7516435, 100.4927041], [13.799387, 100.5487751], [13.8655117, 100.7034251], [13.8007164, 100.7100851], [13.7044191, 100.5032671]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var marker_d4475ac0fcbd45d69e99611ae8a96412 = L.marker(
+                [13.7194775, 100.5136345],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_85ef6f99596c4855a039069fd9e63232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4475ac0fcbd45d69e99611ae8a96412.setIcon(icon_85ef6f99596c4855a039069fd9e63232);
+        
+    
+            marker_d4475ac0fcbd45d69e99611ae8a96412.bindTooltip(
+                `<div>
+                     1. Shangri-La Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6a2ac0e24a245ebb4c3c7ce95e72931 = L.marker(
+                [13.7516435, 100.4927041],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_144d7f6ceedf42a1b431a841d21ffecf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6a2ac0e24a245ebb4c3c7ce95e72931.setIcon(icon_144d7f6ceedf42a1b431a841d21ffecf);
+        
+    
+            marker_a6a2ac0e24a245ebb4c3c7ce95e72931.bindTooltip(
+                `<div>
+                     2. Temple of the Emerald Buddha - Wat Phra Si Rattana Satsadaram / Wat Phra Kaew
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6051119822c74ef69a7cb8ca4e045da2 = L.marker(
+                [13.799387, 100.5487751],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_2c0891002596472e8f8e2f0a5a546528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6051119822c74ef69a7cb8ca4e045da2.setIcon(icon_2c0891002596472e8f8e2f0a5a546528);
+        
+    
+            marker_6051119822c74ef69a7cb8ca4e045da2.bindTooltip(
+                `<div>
+                     3. Chatuchak Weekend Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c57c2a84694741f2a20c930ac4e63e54 = L.marker(
+                [13.8655117, 100.7034251],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_6969167b8f794b0ba39c8f3049b4be01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c57c2a84694741f2a20c930ac4e63e54.setIcon(icon_6969167b8f794b0ba39c8f3049b4be01);
+        
+    
+            marker_c57c2a84694741f2a20c930ac4e63e54.bindTooltip(
+                `<div>
+                     4. Safari World
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f2471854c8d475990da78cc63092900 = L.marker(
+                [13.8007164, 100.7100851],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_9523f69eab874eb0a590a47cf4970a12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f2471854c8d475990da78cc63092900.setIcon(icon_9523f69eab874eb0a590a47cf4970a12);
+        
+    
+            marker_2f2471854c8d475990da78cc63092900.bindTooltip(
+                `<div>
+                     5. Kwan-Riam Floating Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9192fe27af445db1aa2bd4ebc0c065 = L.marker(
+                [13.7044191, 100.5032671],
+                {}
+            ).addTo(map_a26673601d0b4b1789b43d3ade103a51);
+        
+    
+            var icon_8ab6f431117a4824918d4e8c6d3ba405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa9192fe27af445db1aa2bd4ebc0c065.setIcon(icon_8ab6f431117a4824918d4e8c6d3ba405);
+        
+    
+            marker_aa9192fe27af445db1aa2bd4ebc0c065.bindTooltip(
+                `<div>
+                     6. ASIATIQUE The Riverfront
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

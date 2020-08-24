@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPQ Project DR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mapSelect">
+        <div class="cityList">
+            <a target="mapFrame" onclick="GetDetails('mumbai')" href="./map/mumbai.html">Mumbai</a>
+            <a target="mapFrame" onclick="GetDetails('paris')" href="./map/paris.html">Paris</a>
+            <a target="mapFrame" onclick="GetDetails('dubai')" href="./map/dubai.html">Dubai</a>
+            <a target="mapFrame" onclick="GetDetails('bangkok')" href="./map/bangkok.html">Bangkok</a>
+            <a target="mapFrame" onclick="GetDetails('new_york')" href="./map/new_york.html">New York</a>
+            <a target="mapFrame" onclick="GetDetails('cape_town')" href="./map/cape_town.html">Cape Town</a>
+            <a target="mapFrame" onclick="GetDetails('melbourne')" href="./map/melbourne.html">Melbourne</a>
+            <a target="mapFrame" onclick="GetDetails('rio_de_janeiro')" href="./map/rio_de_janeiro.html">Rio de
+                Janeiro</a>
+        </div>
+        <iframe src="./map/mumbai.html" name="mapFrame" class="mapFrame" frameborder="0"></iframe>
+        <div class="pathDetails" id="pathDetails"></div>
+    </div>
+</body>
+
+<script>
+    const GetDetails = async (city) => {
+        let path_data = await fetch(`./latest_path/${city}.html`).then(x => x.text())
+        document.getElementById('pathDetails').innerHTML = path_data
+        return;
+    }
+    GetDetails('mumbai')
+</script>
+
+</html>
