@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d3437364ab06480d8c250cb0ebfe2610 {
+                #map_889be375475d4b8092dbb6846c724857 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_d3437364ab06480d8c250cb0ebfe2610" ></div>
+            <div class="folium-map" id="map_889be375475d4b8092dbb6846c724857" ></div>
         
 </body>
 <script>    
     
-            var map_d3437364ab06480d8c250cb0ebfe2610 = L.map(
-                "map_d3437364ab06480d8c250cb0ebfe2610",
+            var map_889be375475d4b8092dbb6846c724857 = L.map(
+                "map_889be375475d4b8092dbb6846c724857",
                 {
                     center: [48.85212135, 2.34957645],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,159 @@
 
         
     
-            var tile_layer_d2e704aa237f406ab50ac48aba82bd7e = L.tileLayer(
+            var tile_layer_3ca8ee82df8d4d0c8087151164ee38d6 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            map_d3437364ab06480d8c250cb0ebfe2610.fitBounds(
+            map_889be375475d4b8092dbb6846c724857.fitBounds(
                 [[48.7659442, 2.2334126000000003], [48.938298499999995, 2.4657402999999998]],
                 {}
             );
         
     
-            var poly_line_55bec27c27664a54bea851b307a4c53b = L.polyline(
-                [[48.8756169, 2.32553939999999], [48.8510095, 2.3350091], [48.8583700999999, 2.2944813], [48.8606111, 2.337644], [48.8556475, 2.2986304], [48.8634916, 2.32749429999999]],
+            var poly_line_4110033e9ab64590b8faf9c90f4fbb18 = L.polyline(
+                [[48.8810273, 2.3627739], [48.8583700999999, 2.2944813], [48.8606111, 2.337644], [48.8610135, 2.3358583], [48.8737917, 2.29502749999999], [48.8723324, 2.3008009], [48.8719697, 2.3316014]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var marker_cac4672a226d4a15afef7ee409735fa8 = L.marker(
-                [48.8756169, 2.32553939999999],
+            var marker_6207a55b9773460e94623f7d5053d77b = L.marker(
+                [48.8810273, 2.3627739],
                 {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var icon_f2ea1b1727894688ac039d4a4266202d = L.AwesomeMarkers.icon(
+            var icon_e612a7f1a09b471f92822f128c042330 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_cac4672a226d4a15afef7ee409735fa8.setIcon(icon_f2ea1b1727894688ac039d4a4266202d);
+            marker_6207a55b9773460e94623f7d5053d77b.setIcon(icon_e612a7f1a09b471f92822f128c042330);
         
     
-            marker_cac4672a226d4a15afef7ee409735fa8.bindTooltip(
+            marker_6207a55b9773460e94623f7d5053d77b.bindTooltip(
                 `<div>
-                     1. Hilton Paris Opera
+                     1. ibis Paris Gare du Nord Cheteau-Landon 10eme
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_4914682901a643e699f176741e049e21 = L.marker(
-                [48.8510095, 2.3350091],
-                {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
-        
-    
-            var icon_62e566aa9428401ab18510dca06186e8 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_4914682901a643e699f176741e049e21.setIcon(icon_62e566aa9428401ab18510dca06186e8);
-        
-    
-            marker_4914682901a643e699f176741e049e21.bindTooltip(
-                `<div>
-                     2. Eglise Saint-Sulpice
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_d9c40549012447c1a137441e2b08f576 = L.marker(
+            var marker_7ba1f687f213482d9838028eb4e8614c = L.marker(
                 [48.8583700999999, 2.2944813],
                 {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var icon_9676ba8f5a9843c597b2e6321058bcf9 = L.AwesomeMarkers.icon(
+            var icon_c8b8b114b8ea4760b89b3bd356b14a57 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_d9c40549012447c1a137441e2b08f576.setIcon(icon_9676ba8f5a9843c597b2e6321058bcf9);
+            marker_7ba1f687f213482d9838028eb4e8614c.setIcon(icon_c8b8b114b8ea4760b89b3bd356b14a57);
         
     
-            marker_d9c40549012447c1a137441e2b08f576.bindTooltip(
+            marker_7ba1f687f213482d9838028eb4e8614c.bindTooltip(
                 `<div>
-                     3. Eiffel Tower
+                     2. Eiffel Tower
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_d8bcad172a964e96aa4258c8aafbb994 = L.marker(
+            var marker_f10c14f9acfb45b19cd5bd5ba086555f = L.marker(
                 [48.8606111, 2.337644],
                 {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var icon_666140a232a94fe7b0b7061bd208f66b = L.AwesomeMarkers.icon(
+            var icon_b3919f0a31e54deeb7627a0aff87b7e9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_d8bcad172a964e96aa4258c8aafbb994.setIcon(icon_666140a232a94fe7b0b7061bd208f66b);
+            marker_f10c14f9acfb45b19cd5bd5ba086555f.setIcon(icon_b3919f0a31e54deeb7627a0aff87b7e9);
         
     
-            marker_d8bcad172a964e96aa4258c8aafbb994.bindTooltip(
+            marker_f10c14f9acfb45b19cd5bd5ba086555f.bindTooltip(
                 `<div>
-                     4. Louvre Museum
+                     3. Louvre Museum
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_be7ee4b8768a4695a4a97bd44c853d57 = L.marker(
-                [48.8556475, 2.2986304],
+            var marker_f03aa949116d4909867acc28d51ba186 = L.marker(
+                [48.8610135, 2.3358583],
                 {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var icon_fb15264ef64f44f29fd4b50010894d83 = L.AwesomeMarkers.icon(
+            var icon_5b429ae8277b49fb8d8318509e0af95c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_be7ee4b8768a4695a4a97bd44c853d57.setIcon(icon_fb15264ef64f44f29fd4b50010894d83);
+            marker_f03aa949116d4909867acc28d51ba186.setIcon(icon_5b429ae8277b49fb8d8318509e0af95c);
         
     
-            marker_be7ee4b8768a4695a4a97bd44c853d57.bindTooltip(
+            marker_f03aa949116d4909867acc28d51ba186.bindTooltip(
                 `<div>
-                     5. Champ de Mars
+                     4. Louvre Pyramid
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_0757b2ede12c431faba2731dcf9ab333 = L.marker(
-                [48.8634916, 2.32749429999999],
+            var marker_01918d9584f248e3a94d36bd73362e42 = L.marker(
+                [48.8737917, 2.29502749999999],
                 {}
-            ).addTo(map_d3437364ab06480d8c250cb0ebfe2610);
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
         
     
-            var icon_95d332c9fa4646e1891c9c0a6089c3f5 = L.AwesomeMarkers.icon(
+            var icon_324d1c3e0bdf4dc180b31dfbcfca4753 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0757b2ede12c431faba2731dcf9ab333.setIcon(icon_95d332c9fa4646e1891c9c0a6089c3f5);
+            marker_01918d9584f248e3a94d36bd73362e42.setIcon(icon_324d1c3e0bdf4dc180b31dfbcfca4753);
         
     
-            marker_0757b2ede12c431faba2731dcf9ab333.bindTooltip(
+            marker_01918d9584f248e3a94d36bd73362e42.bindTooltip(
                 `<div>
-                     6. Tuileries Garden
+                     5. Arc de Triomphe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35a38c2c956b474e9449dc0391861f77 = L.marker(
+                [48.8723324, 2.3008009],
+                {}
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
+        
+    
+            var icon_be0b509ad4d14d39ae0888acec7f0657 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35a38c2c956b474e9449dc0391861f77.setIcon(icon_be0b509ad4d14d39ae0888acec7f0657);
+        
+    
+            marker_35a38c2c956b474e9449dc0391861f77.bindTooltip(
+                `<div>
+                     6. Lido de Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bdefc5b31f34a4c82e09491fdaffdc3 = L.marker(
+                [48.8719697, 2.3316014],
+                {}
+            ).addTo(map_889be375475d4b8092dbb6846c724857);
+        
+    
+            var icon_e2303d4c576649acb4fc78e929a1ab1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9bdefc5b31f34a4c82e09491fdaffdc3.setIcon(icon_e2303d4c576649acb4fc78e929a1ab1f);
+        
+    
+            marker_9bdefc5b31f34a4c82e09491fdaffdc3.bindTooltip(
+                `<div>
+                     7. Palais Garnier
                  </div>`,
                 {"sticky": true}
             );
