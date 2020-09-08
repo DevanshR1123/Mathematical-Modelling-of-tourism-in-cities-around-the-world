@@ -13,7 +13,7 @@ def map_path(start, path, time, city):
     c = [sum(latb)/2, sum(lonb)/2]
     bb = [(latb[1], lonb[1]), (latb[0], lonb[0])]
 
-    mp = fl.Map(location=c, zoom_start=16)
+    mp = fl.Map(location=c, zoom_start=18)
     mp.fit_bounds(bb)
 
     loc_path = list(map(lambda i: plocs[city][i], path))
