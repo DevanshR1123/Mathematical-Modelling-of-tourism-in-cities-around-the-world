@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_922c328089b44aa195b20494f1a8355d {
+                #map_6e287a00c177478bb7ddc9aae336f87d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_922c328089b44aa195b20494f1a8355d" ></div>
+            <div class="folium-map" id="map_6e287a00c177478bb7ddc9aae336f87d" ></div>
         
 </body>
 <script>    
     
-            var map_922c328089b44aa195b20494f1a8355d = L.map(
-                "map_922c328089b44aa195b20494f1a8355d",
+            var map_6e287a00c177478bb7ddc9aae336f87d = L.map(
+                "map_6e287a00c177478bb7ddc9aae336f87d",
                 {
                     center: [13.76116815, 100.52877624999999],
                     crs: L.CRS.EPSG3857,
@@ -55,119 +55,139 @@
 
         
     
-            var tile_layer_61bf215e6d6c4343a4411290843db6d6 = L.tileLayer(
+            var tile_layer_5f5633b5a3584ecb84f01dd32452207d = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            map_922c328089b44aa195b20494f1a8355d.fitBounds(
+            map_6e287a00c177478bb7ddc9aae336f87d.fitBounds(
                 [[13.654460499999999, 100.4419712], [13.8678758, 100.6155813]],
                 {}
             );
         
     
-            var poly_line_9e05a363649049bd8049df201f78569e = L.polyline(
-                [[13.7304211, 100.5655813], [13.7667568, 100.5685637], [13.7044191, 100.5032671], [13.7221216, 100.4706986], [13.799387, 100.5487751]],
+            var poly_line_de294bc1097d4c1b99704ef932f08fe6 = L.polyline(
+                [[13.7194775, 100.5136345], [13.7044191, 100.5032671], [13.7516435, 100.4927041], [13.7667568, 100.5685637], [13.769432, 100.5774333], [13.799387, 100.5487751]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            var marker_da9e9632d5d646deb6ca5125354845f7 = L.marker(
-                [13.7304211, 100.5655813],
+            var marker_1706b59ea52242f78e6a996b4c2e6dce = L.marker(
+                [13.7194775, 100.5136345],
                 {}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            var icon_e084d4bbd0a54801a87106751317f21d = L.AwesomeMarkers.icon(
+            var icon_c6aa580f42ac4459af9712d3400699ca = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_da9e9632d5d646deb6ca5125354845f7.setIcon(icon_e084d4bbd0a54801a87106751317f21d);
+            marker_1706b59ea52242f78e6a996b4c2e6dce.setIcon(icon_c6aa580f42ac4459af9712d3400699ca);
         
     
-            marker_da9e9632d5d646deb6ca5125354845f7.bindTooltip(
+            marker_1706b59ea52242f78e6a996b4c2e6dce.bindTooltip(
                 `<div>
-                     1. Bangkok Marriott Marquis Queen's Park
+                     1. Shangri-La Hotel
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_eae5cf7e0ae14248ad3b459876a80676 = L.marker(
-                [13.7667568, 100.5685637],
-                {}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
-        
-    
-            var icon_bc2f6327ea6842a98e17fbd799724b36 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_eae5cf7e0ae14248ad3b459876a80676.setIcon(icon_bc2f6327ea6842a98e17fbd799724b36);
-        
-    
-            marker_eae5cf7e0ae14248ad3b459876a80676.bindTooltip(
-                `<div>
-                     2. Train Night Market Ratchada
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_bc34a8f7f5ee47e3a5ad13a22b2a845b = L.marker(
+            var marker_562af57de79445338c8d459fd89c3861 = L.marker(
                 [13.7044191, 100.5032671],
                 {}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            var icon_55c34c075c52451a990e3f43dc974cf0 = L.AwesomeMarkers.icon(
+            var icon_b9d73c75500c49a982ab15d716f8cf6c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_bc34a8f7f5ee47e3a5ad13a22b2a845b.setIcon(icon_55c34c075c52451a990e3f43dc974cf0);
+            marker_562af57de79445338c8d459fd89c3861.setIcon(icon_b9d73c75500c49a982ab15d716f8cf6c);
         
     
-            marker_bc34a8f7f5ee47e3a5ad13a22b2a845b.bindTooltip(
+            marker_562af57de79445338c8d459fd89c3861.bindTooltip(
                 `<div>
-                     3. ASIATIQUE The Riverfront
+                     2. ASIATIQUE The Riverfront
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_d0fd4a0869264b8db312f5120f057116 = L.marker(
-                [13.7221216, 100.4706986],
+            var marker_ef2ab611fb6c4e54bf65a00a6cd762d3 = L.marker(
+                [13.7516435, 100.4927041],
                 {}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            var icon_4bbcf934aee24643b178dafafb5c35d9 = L.AwesomeMarkers.icon(
+            var icon_69be4452c09847a28a0114088736444a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_d0fd4a0869264b8db312f5120f057116.setIcon(icon_4bbcf934aee24643b178dafafb5c35d9);
+            marker_ef2ab611fb6c4e54bf65a00a6cd762d3.setIcon(icon_69be4452c09847a28a0114088736444a);
         
     
-            marker_d0fd4a0869264b8db312f5120f057116.bindTooltip(
+            marker_ef2ab611fb6c4e54bf65a00a6cd762d3.bindTooltip(
                 `<div>
-                     4. Wat Paknam Phasi Charoen
+                     3. Temple of the Emerald Buddha - Wat Phra Si Rattana Satsadaram / Wat Phra Kaew
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_36df1c86597b42e7a3cb86d691c0f42a = L.marker(
+            var marker_2a7030c5e85a4aa0b2471cad02e67c63 = L.marker(
+                [13.7667568, 100.5685637],
+                {}
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
+        
+    
+            var icon_ee6235e838444ed0a341c1c9e1b678fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a7030c5e85a4aa0b2471cad02e67c63.setIcon(icon_ee6235e838444ed0a341c1c9e1b678fb);
+        
+    
+            marker_2a7030c5e85a4aa0b2471cad02e67c63.bindTooltip(
+                `<div>
+                     4. Train Night Market Ratchada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea2780bd18e74924b92929254dd4aaad = L.marker(
+                [13.769432, 100.5774333],
+                {}
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
+        
+    
+            var icon_efe3c5cb52704192a5879d07a31946a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea2780bd18e74924b92929254dd4aaad.setIcon(icon_efe3c5cb52704192a5879d07a31946a2);
+        
+    
+            marker_ea2780bd18e74924b92929254dd4aaad.bindTooltip(
+                `<div>
+                     5. Siam Niramit Bangkok
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8abfc5fe8c9f4ab6b1d4f7611a78d542 = L.marker(
                 [13.799387, 100.5487751],
                 {}
-            ).addTo(map_922c328089b44aa195b20494f1a8355d);
+            ).addTo(map_6e287a00c177478bb7ddc9aae336f87d);
         
     
-            var icon_0c34c9775951448ba79d4e48abe33643 = L.AwesomeMarkers.icon(
+            var icon_ae1309354d64467387daa7b558d6d663 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_36df1c86597b42e7a3cb86d691c0f42a.setIcon(icon_0c34c9775951448ba79d4e48abe33643);
+            marker_8abfc5fe8c9f4ab6b1d4f7611a78d542.setIcon(icon_ae1309354d64467387daa7b558d6d663);
         
     
-            marker_36df1c86597b42e7a3cb86d691c0f42a.bindTooltip(
+            marker_8abfc5fe8c9f4ab6b1d4f7611a78d542.bindTooltip(
                 `<div>
-                     5. Chatuchak Weekend Market
+                     6. Chatuchak Weekend Market
                  </div>`,
                 {"sticky": true}
             );
