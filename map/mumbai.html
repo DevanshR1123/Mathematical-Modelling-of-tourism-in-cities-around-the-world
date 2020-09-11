@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fe5f0c816b90498bbafe7a3ec44f4ba2 {
+                #map_9db76b36c8a849a5b521dc6dc053a8bb {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_fe5f0c816b90498bbafe7a3ec44f4ba2" ></div>
+            <div class="folium-map" id="map_9db76b36c8a849a5b521dc6dc053a8bb" ></div>
         
 </body>
 <script>    
     
-            var map_fe5f0c816b90498bbafe7a3ec44f4ba2 = L.map(
-                "map_fe5f0c816b90498bbafe7a3ec44f4ba2",
+            var map_9db76b36c8a849a5b521dc6dc053a8bb = L.map(
+                "map_9db76b36c8a849a5b521dc6dc053a8bb",
                 {
                     center: [19.0479879, 72.84479479999996],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,159 @@
 
         
     
-            var tile_layer_a7035fe93a374a0a80de61da82a3e213 = L.tileLayer(
+            var tile_layer_4d7dded41cfd4ae080aff16607a7e501 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
         
     
-            map_fe5f0c816b90498bbafe7a3ec44f4ba2.fitBounds(
+            map_9db76b36c8a849a5b521dc6dc053a8bb.fitBounds(
                 [[18.8725854, 72.7694558], [19.2233904, 72.9201337999999]],
                 {}
             );
         
     
-            var poly_line_32787eea45bf4bb693cbaa1f50cee609 = L.polyline(
-                [[19.0435385, 72.8194558], [19.0970133999999, 72.8266203], [18.9219841, 72.8346543], [19.0168159, 72.8302491], [19.0418892, 72.8183593999999], [19.0307401, 72.8407716999999]],
+            var poly_line_1b110d80a9224cafb900ce3083786c56 = L.polyline(
+                [[19.1087247, 72.8243382], [18.9219841, 72.8346543], [18.9269015, 72.8326915999999], [18.9298297, 72.8217287], [18.9319003, 72.8336849], [18.93197, 72.8350343], [19.0168159, 72.8302491]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
         
     
-            var marker_7f8506fb085e48bab57bbe14b1f5371a = L.marker(
-                [19.0435385, 72.8194558],
+            var marker_77ad6d39bca14c4dbba223943143931f = L.marker(
+                [19.1087247, 72.8243382],
                 {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
         
     
-            var icon_827693b83468426a9ee1e124e85009ca = L.AwesomeMarkers.icon(
+            var icon_a00adc1e12d74f87ba96174ee1fb7809 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_7f8506fb085e48bab57bbe14b1f5371a.setIcon(icon_827693b83468426a9ee1e124e85009ca);
+            marker_77ad6d39bca14c4dbba223943143931f.setIcon(icon_a00adc1e12d74f87ba96174ee1fb7809);
         
     
-            marker_7f8506fb085e48bab57bbe14b1f5371a.bindTooltip(
+            marker_77ad6d39bca14c4dbba223943143931f.bindTooltip(
                 `<div>
-                     1. Taj Lands End
+                     1. Novotel Mumbai Juhu Beach
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a13c4e27258e4ca7a4404959af12fb6b = L.marker(
-                [19.0970133999999, 72.8266203],
-                {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
-        
-    
-            var icon_22e43628583f4ae3ab4974063aecd9b4 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_a13c4e27258e4ca7a4404959af12fb6b.setIcon(icon_22e43628583f4ae3ab4974063aecd9b4);
-        
-    
-            marker_a13c4e27258e4ca7a4404959af12fb6b.bindTooltip(
-                `<div>
-                     2. Juhu Chowpatty
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_b2231d0658ac4c5aa5e85131e6983055 = L.marker(
+            var marker_e779317a8e0a4404833425519326c415 = L.marker(
                 [18.9219841, 72.8346543],
                 {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
         
     
-            var icon_53ebbce1f8224d7e8ff1e525bd0bb4a3 = L.AwesomeMarkers.icon(
+            var icon_01ddde4e5adf41e4974066934f880cd7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_b2231d0658ac4c5aa5e85131e6983055.setIcon(icon_53ebbce1f8224d7e8ff1e525bd0bb4a3);
+            marker_e779317a8e0a4404833425519326c415.setIcon(icon_01ddde4e5adf41e4974066934f880cd7);
         
     
-            marker_b2231d0658ac4c5aa5e85131e6983055.bindTooltip(
+            marker_e779317a8e0a4404833425519326c415.bindTooltip(
                 `<div>
-                     3. Gateway Of India Mumbai
+                     2. Gateway Of India Mumbai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_7158cdc9e7d140d88b48d3c305ff9b4e = L.marker(
+            var marker_77c61c6f4e70447ab0febffb80b4e5d0 = L.marker(
+                [18.9269015, 72.8326915999999],
+                {}
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
+        
+    
+            var icon_ead30f70cc8c4b33bfbd6431aaa80a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77c61c6f4e70447ab0febffb80b4e5d0.setIcon(icon_ead30f70cc8c4b33bfbd6431aaa80a65);
+        
+    
+            marker_77c61c6f4e70447ab0febffb80b4e5d0.bindTooltip(
+                `<div>
+                     3. Chhatrapati Shivaji Maharaj Vastu Sangrahalaya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_384d02c8a8604defadf141751943a64a = L.marker(
+                [18.9298297, 72.8217287],
+                {}
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
+        
+    
+            var icon_fc34b2a8398e4757bee34dc804f05640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_384d02c8a8604defadf141751943a64a.setIcon(icon_fc34b2a8398e4757bee34dc804f05640);
+        
+    
+            marker_384d02c8a8604defadf141751943a64a.bindTooltip(
+                `<div>
+                     4. Queen's Necklace - Marine Drive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26bb9f1219a74296855c0424d350f581 = L.marker(
+                [18.9319003, 72.8336849],
+                {}
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
+        
+    
+            var icon_7201d67a2a2c42d688fbf26b6bce0bbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26bb9f1219a74296855c0424d350f581.setIcon(icon_7201d67a2a2c42d688fbf26b6bce0bbf);
+        
+    
+            marker_26bb9f1219a74296855c0424d350f581.bindTooltip(
+                `<div>
+                     5. St. Thomas' Cathedral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70303c7eac7d490187e2fecd78fb9e68 = L.marker(
+                [18.93197, 72.8350343],
+                {}
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
+        
+    
+            var icon_4791b8a40e0e495b8e812b4311d5818e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70303c7eac7d490187e2fecd78fb9e68.setIcon(icon_4791b8a40e0e495b8e812b4311d5818e);
+        
+    
+            marker_70303c7eac7d490187e2fecd78fb9e68.bindTooltip(
+                `<div>
+                     6. Horniman Circle Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13ddc887229a47c1be6dc54b0f3c7b0d = L.marker(
                 [19.0168159, 72.8302491],
                 {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
+            ).addTo(map_9db76b36c8a849a5b521dc6dc053a8bb);
         
     
-            var icon_d924a2d681bc45a68ead2b7825bdd2af = L.AwesomeMarkers.icon(
+            var icon_13811599470c4097ae0bef8df1f4cb09 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_7158cdc9e7d140d88b48d3c305ff9b4e.setIcon(icon_d924a2d681bc45a68ead2b7825bdd2af);
+            marker_13ddc887229a47c1be6dc54b0f3c7b0d.setIcon(icon_13811599470c4097ae0bef8df1f4cb09);
         
     
-            marker_7158cdc9e7d140d88b48d3c305ff9b4e.bindTooltip(
+            marker_13ddc887229a47c1be6dc54b0f3c7b0d.bindTooltip(
                 `<div>
-                     4. Shri Siddhi Vinayak Ganpati Mandir
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_8516b325497547309458c821e68efcb8 = L.marker(
-                [19.0418892, 72.8183593999999],
-                {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
-        
-    
-            var icon_1c8170d295fb40c2a91d4e3811a74979 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_8516b325497547309458c821e68efcb8.setIcon(icon_1c8170d295fb40c2a91d4e3811a74979);
-        
-    
-            marker_8516b325497547309458c821e68efcb8.bindTooltip(
-                `<div>
-                     5. Bandra Fort
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_3b234155ba854cdbbbd1ca5bd74d8223 = L.marker(
-                [19.0307401, 72.8407716999999],
-                {}
-            ).addTo(map_fe5f0c816b90498bbafe7a3ec44f4ba2);
-        
-    
-            var icon_ea058caea86c401fa45c7ee2d374be06 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_3b234155ba854cdbbbd1ca5bd74d8223.setIcon(icon_ea058caea86c401fa45c7ee2d374be06);
-        
-    
-            marker_3b234155ba854cdbbbd1ca5bd74d8223.bindTooltip(
-                `<div>
-                     6. Chhatrapati Shivaji maharaj Park
+                     7. Shri Siddhi Vinayak Ganpati Mandir
                  </div>`,
                 {"sticky": true}
             );
