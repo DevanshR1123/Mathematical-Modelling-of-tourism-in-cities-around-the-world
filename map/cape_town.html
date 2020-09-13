@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d9f78fac995c4546b3316e8de6f2a67f {
+                #map_6572910165284013b3d3cea1e377cc4d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_d9f78fac995c4546b3316e8de6f2a67f" ></div>
+            <div class="folium-map" id="map_6572910165284013b3d3cea1e377cc4d" ></div>
         
 </body>
 <script>    
     
-            var map_d9f78fac995c4546b3316e8de6f2a67f = L.map(
-                "map_d9f78fac995c4546b3316e8de6f2a67f",
+            var map_6572910165284013b3d3cea1e377cc4d = L.map(
+                "map_6572910165284013b3d3cea1e377cc4d",
                 {
                     center: [-33.9146259, 18.44323335],
                     crs: L.CRS.EPSG3857,
@@ -55,179 +55,159 @@
 
         
     
-            var tile_layer_a7bd6b59cc044875ac267b9755f5da5f = L.tileLayer(
+            var tile_layer_046b7c60088c459c968ac7332780bcf7 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
         
     
-            map_d9f78fac995c4546b3316e8de6f2a67f.fitBounds(
+            map_6572910165284013b3d3cea1e377cc4d.fitBounds(
                 [[-33.984573299999994, 18.329375], [-33.8446785, 18.5570917]],
                 {}
             );
         
     
-            var poly_line_75426f8af69347d8ba8c5ae760b350a8 = L.polyline(
-                [[-33.921564, 18.4219572], [-33.926046, 18.4280581], [-33.9277222, 18.423677], [-33.9290284, 18.4172096], [-33.9117977, 18.4226978], [-33.917791, 18.5470876], [-33.9875011, 18.432722], [-33.9604102, 18.4012537]],
+            var poly_line_4721aef112a4455d9242c7d6c5ed8f40 = L.polyline(
+                [[-33.9150466, 18.4252771], [-33.9875011, 18.432722], [-33.9117977, 18.4226978], [-33.9070139, 18.418435], [-33.9083736999999, 18.4229816999999], [-33.9036655, 18.4161886], [-33.9604102, 18.4012537]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
         
     
-            var marker_247943d6b2dd428699330779dacbd2cb = L.marker(
-                [-33.921564, 18.4219572],
+            var marker_f5806ffe132643c1a3fd1853ad731717 = L.marker(
+                [-33.9150466, 18.4252771],
                 {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
         
     
-            var icon_33201d85bcbe4d72a0b409f6484a0341 = L.AwesomeMarkers.icon(
+            var icon_8c9d416d1dc74da08905a43d59a4781f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_247943d6b2dd428699330779dacbd2cb.setIcon(icon_33201d85bcbe4d72a0b409f6484a0341);
+            marker_f5806ffe132643c1a3fd1853ad731717.setIcon(icon_8c9d416d1dc74da08905a43d59a4781f);
         
     
-            marker_247943d6b2dd428699330779dacbd2cb.bindTooltip(
+            marker_f5806ffe132643c1a3fd1853ad731717.bindTooltip(
                 `<div>
-                     1. Southern Sun Cape Sun
+                     1. The Westin Cape Town
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a4fad7413a7f492f9f0b117c82e177cd = L.marker(
-                [-33.926046, 18.4280581],
-                {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
-        
-    
-            var icon_1238938ac58d43d59cbd72f38f69bdda = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_a4fad7413a7f492f9f0b117c82e177cd.setIcon(icon_1238938ac58d43d59cbd72f38f69bdda);
-        
-    
-            marker_a4fad7413a7f492f9f0b117c82e177cd.bindTooltip(
-                `<div>
-                     2. Castle of Good Hope
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_3dc633e87abe452c8f939ed32330d6d1 = L.marker(
-                [-33.9277222, 18.423677],
-                {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
-        
-    
-            var icon_285ac1b03169499da1c781848cc1557f = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_3dc633e87abe452c8f939ed32330d6d1.setIcon(icon_285ac1b03169499da1c781848cc1557f);
-        
-    
-            marker_3dc633e87abe452c8f939ed32330d6d1.bindTooltip(
-                `<div>
-                     3. District Six Museum
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_7067725a16264dd1b2464e0d65145971 = L.marker(
-                [-33.9290284, 18.4172096],
-                {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
-        
-    
-            var icon_cf3cf5ad2b6746ef836b7cf046b24bc1 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_7067725a16264dd1b2464e0d65145971.setIcon(icon_cf3cf5ad2b6746ef836b7cf046b24bc1);
-        
-    
-            marker_7067725a16264dd1b2464e0d65145971.bindTooltip(
-                `<div>
-                     4. South African National Gallery
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_f77749330b6b4245b969d5c0a195b1db = L.marker(
-                [-33.9117977, 18.4226978],
-                {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
-        
-    
-            var icon_e407f6ab966e47a69c89eea921140fdd = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_f77749330b6b4245b969d5c0a195b1db.setIcon(icon_e407f6ab966e47a69c89eea921140fdd);
-        
-    
-            marker_f77749330b6b4245b969d5c0a195b1db.bindTooltip(
-                `<div>
-                     5. Victoria & Alfred Waterfront
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_f714b347aadb4ffd9b60fe3873941d9a = L.marker(
-                [-33.917791, 18.5470876],
-                {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
-        
-    
-            var icon_2a963c43859247b4a3f3568c0ad4e882 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_f714b347aadb4ffd9b60fe3873941d9a.setIcon(icon_2a963c43859247b4a3f3568c0ad4e882);
-        
-    
-            marker_f714b347aadb4ffd9b60fe3873941d9a.bindTooltip(
-                `<div>
-                     6. GrandWest Casino and Entertainment World
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_e5934bbe70b94de99e51410810fcd317 = L.marker(
+            var marker_7ef54e3b786d4437888e4ae934980e91 = L.marker(
                 [-33.9875011, 18.432722],
                 {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
         
     
-            var icon_66163163b1c5472dabdc6d331437d9f9 = L.AwesomeMarkers.icon(
+            var icon_30e81489d2474370a429eb90e168de11 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e5934bbe70b94de99e51410810fcd317.setIcon(icon_66163163b1c5472dabdc6d331437d9f9);
+            marker_7ef54e3b786d4437888e4ae934980e91.setIcon(icon_30e81489d2474370a429eb90e168de11);
         
     
-            marker_e5934bbe70b94de99e51410810fcd317.bindTooltip(
+            marker_7ef54e3b786d4437888e4ae934980e91.bindTooltip(
                 `<div>
-                     7. Kirstenbosch National Botanical Garden
+                     2. Kirstenbosch National Botanical Garden
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_381bba9ad4a84057b417e94e3b6fe0e9 = L.marker(
-                [-33.9604102, 18.4012537],
+            var marker_6b3b4b03ee18403a8bf888deb7d98a5a = L.marker(
+                [-33.9117977, 18.4226978],
                 {}
-            ).addTo(map_d9f78fac995c4546b3316e8de6f2a67f);
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
         
     
-            var icon_c92e209010bc444cacb9f94f23f1f885 = L.AwesomeMarkers.icon(
+            var icon_f2cd52b5d8724049b418f29816f28ff4 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_381bba9ad4a84057b417e94e3b6fe0e9.setIcon(icon_c92e209010bc444cacb9f94f23f1f885);
+            marker_6b3b4b03ee18403a8bf888deb7d98a5a.setIcon(icon_f2cd52b5d8724049b418f29816f28ff4);
         
     
-            marker_381bba9ad4a84057b417e94e3b6fe0e9.bindTooltip(
+            marker_6b3b4b03ee18403a8bf888deb7d98a5a.bindTooltip(
                 `<div>
-                     8. Table Mountain National Park
+                     3. Victoria & Alfred Waterfront
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f5d17b73e654fe68287d2758bbe19cd = L.marker(
+                [-33.9070139, 18.418435],
+                {}
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
+        
+    
+            var icon_927781f2b6524263bf51976da85edd18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f5d17b73e654fe68287d2758bbe19cd.setIcon(icon_927781f2b6524263bf51976da85edd18);
+        
+    
+            marker_0f5d17b73e654fe68287d2758bbe19cd.bindTooltip(
+                `<div>
+                     4. The Watershed
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_315521d7a9214f02b3124a66f04a2a51 = L.marker(
+                [-33.9083736999999, 18.4229816999999],
+                {}
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
+        
+    
+            var icon_7da9b43436434cd98f21e14ba184c078 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_315521d7a9214f02b3124a66f04a2a51.setIcon(icon_7da9b43436434cd98f21e14ba184c078);
+        
+    
+            marker_315521d7a9214f02b3124a66f04a2a51.bindTooltip(
+                `<div>
+                     5. Zeitz Museum of Contemporary Art Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_285cf486c31d41b6aa475945bc1b1eab = L.marker(
+                [-33.9036655, 18.4161886],
+                {}
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
+        
+    
+            var icon_08fce7f9666d4abe89dc867f54ce2af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_285cf486c31d41b6aa475945bc1b1eab.setIcon(icon_08fce7f9666d4abe89dc867f54ce2af8);
+        
+    
+            marker_285cf486c31d41b6aa475945bc1b1eab.bindTooltip(
+                `<div>
+                     6. Oranjezicht City Farm Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c26f084f0fa419baa711d1ab1bb6a75 = L.marker(
+                [-33.9604102, 18.4012537],
+                {}
+            ).addTo(map_6572910165284013b3d3cea1e377cc4d);
+        
+    
+            var icon_fb9e8ff3ffa1474d92f675c56effec6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c26f084f0fa419baa711d1ab1bb6a75.setIcon(icon_fb9e8ff3ffa1474d92f675c56effec6a);
+        
+    
+            marker_7c26f084f0fa419baa711d1ab1bb6a75.bindTooltip(
+                `<div>
+                     7. Table Mountain National Park
                  </div>`,
                 {"sticky": true}
             );
