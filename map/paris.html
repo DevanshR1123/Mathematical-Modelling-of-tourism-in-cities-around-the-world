@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1fe9061d0efd4f819dc28acdfe42a78a {
+                #map_bb6c986f9c80461db92484f03ce86aee {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_1fe9061d0efd4f819dc28acdfe42a78a" ></div>
+            <div class="folium-map" id="map_bb6c986f9c80461db92484f03ce86aee" ></div>
         
 </body>
 <script>    
     
-            var map_1fe9061d0efd4f819dc28acdfe42a78a = L.map(
-                "map_1fe9061d0efd4f819dc28acdfe42a78a",
+            var map_bb6c986f9c80461db92484f03ce86aee = L.map(
+                "map_bb6c986f9c80461db92484f03ce86aee",
                 {
                     center: [48.85212135, 2.34957645],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,159 @@
 
         
     
-            var tile_layer_e425d0fde7fd4a7281c1a7da0d0d1aee = L.tileLayer(
+            var tile_layer_3aa7744af86b4ff7b542089893ad35b5 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            map_1fe9061d0efd4f819dc28acdfe42a78a.fitBounds(
+            map_bb6c986f9c80461db92484f03ce86aee.fitBounds(
                 [[48.7659442, 2.2334126000000003], [48.938298499999995, 2.4657402999999998]],
                 {}
             );
         
     
-            var poly_line_0846121691954d64afcef01a0d335b00 = L.polyline(
-                [[48.8882985, 2.3784733], [48.8583700999999, 2.2944813], [48.8737917, 2.29502749999999], [48.8606111, 2.337644], [48.8462217, 2.3371605], [48.8556475, 2.2986304]],
+            var poly_line_fe743b6a6f034536873ca445907786ef = L.polyline(
+                [[48.8273808, 2.321065], [48.8606111, 2.337644], [48.8615963, 2.2892823], [48.8565289999999, 2.3127059], [48.8583700999999, 2.2944813], [48.8737917, 2.29502749999999], [48.8556475, 2.2986304]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            var marker_656f8aec90254f80a1725d74600ec173 = L.marker(
-                [48.8882985, 2.3784733],
+            var marker_343ca5b14338427f8dce38890f9d1256 = L.marker(
+                [48.8273808, 2.321065],
                 {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            var icon_bb971bdc94844a03a8c47df21308eb4b = L.AwesomeMarkers.icon(
+            var icon_0edf89e92320483381728e1e19df6e6b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_656f8aec90254f80a1725d74600ec173.setIcon(icon_bb971bdc94844a03a8c47df21308eb4b);
+            marker_343ca5b14338427f8dce38890f9d1256.setIcon(icon_0edf89e92320483381728e1e19df6e6b);
         
     
-            marker_656f8aec90254f80a1725d74600ec173.bindTooltip(
+            marker_343ca5b14338427f8dce38890f9d1256.bindTooltip(
                 `<div>
-                     1. Holiday Inn Express Paris - Canal de la Villette
+                     1. ibis Paris Alesia Montparnasse 14eme
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_df6401e8bde24e06a41d88a767ebd490 = L.marker(
-                [48.8583700999999, 2.2944813],
-                {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
-        
-    
-            var icon_4ef9eaca0e0b40e9bee37c9bd3ead2cb = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_df6401e8bde24e06a41d88a767ebd490.setIcon(icon_4ef9eaca0e0b40e9bee37c9bd3ead2cb);
-        
-    
-            marker_df6401e8bde24e06a41d88a767ebd490.bindTooltip(
-                `<div>
-                     2. Eiffel Tower
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_27baf56db9d143ee950600f1da513f03 = L.marker(
-                [48.8737917, 2.29502749999999],
-                {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
-        
-    
-            var icon_fe6250ff6a26496f972d316e7695c5cc = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_27baf56db9d143ee950600f1da513f03.setIcon(icon_fe6250ff6a26496f972d316e7695c5cc);
-        
-    
-            marker_27baf56db9d143ee950600f1da513f03.bindTooltip(
-                `<div>
-                     3. Arc de Triomphe
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_2ba5e449eddd45afbb95375ce6928835 = L.marker(
+            var marker_07dd06699c31440388634168954dfbec = L.marker(
                 [48.8606111, 2.337644],
                 {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            var icon_285715b2951444b19daed38666b7c2c6 = L.AwesomeMarkers.icon(
+            var icon_5406c7149fe9429f83046a5e12b3a6c7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_2ba5e449eddd45afbb95375ce6928835.setIcon(icon_285715b2951444b19daed38666b7c2c6);
+            marker_07dd06699c31440388634168954dfbec.setIcon(icon_5406c7149fe9429f83046a5e12b3a6c7);
         
     
-            marker_2ba5e449eddd45afbb95375ce6928835.bindTooltip(
+            marker_07dd06699c31440388634168954dfbec.bindTooltip(
                 `<div>
-                     4. Louvre Museum
+                     2. Louvre Museum
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_99c91ee56173440d82c7d2709c5a8e12 = L.marker(
-                [48.8462217, 2.3371605],
+            var marker_c2ac29f5a22e4d4d860287ecf0b76c35 = L.marker(
+                [48.8615963, 2.2892823],
                 {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            var icon_10327c3f54124dfe923bd3372f4e575e = L.AwesomeMarkers.icon(
+            var icon_bcdf65b956a844ca887eba618ba4f678 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_99c91ee56173440d82c7d2709c5a8e12.setIcon(icon_10327c3f54124dfe923bd3372f4e575e);
+            marker_c2ac29f5a22e4d4d860287ecf0b76c35.setIcon(icon_bcdf65b956a844ca887eba618ba4f678);
         
     
-            marker_99c91ee56173440d82c7d2709c5a8e12.bindTooltip(
+            marker_c2ac29f5a22e4d4d860287ecf0b76c35.bindTooltip(
                 `<div>
-                     5. Luxembourg Gardens
+                     3. Trocadero Gardens
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_9392cce6f767405f8e0ef68d45da14c7 = L.marker(
+            var marker_18dd66ca04334841bc5031009f1b52ba = L.marker(
+                [48.8565289999999, 2.3127059],
+                {}
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
+        
+    
+            var icon_bf34ae0fab314f478965fd6941e0eb54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18dd66ca04334841bc5031009f1b52ba.setIcon(icon_bf34ae0fab314f478965fd6941e0eb54);
+        
+    
+            marker_18dd66ca04334841bc5031009f1b52ba.bindTooltip(
+                `<div>
+                     4. Les Invalides
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebce29a14e19425bb9e1ab0ae102f31b = L.marker(
+                [48.8583700999999, 2.2944813],
+                {}
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
+        
+    
+            var icon_c36e9e82addb4de19ecd92603e650c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebce29a14e19425bb9e1ab0ae102f31b.setIcon(icon_c36e9e82addb4de19ecd92603e650c7e);
+        
+    
+            marker_ebce29a14e19425bb9e1ab0ae102f31b.bindTooltip(
+                `<div>
+                     5. Eiffel Tower
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_274f0edd32a3498cb42213c301e9bea9 = L.marker(
+                [48.8737917, 2.29502749999999],
+                {}
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
+        
+    
+            var icon_e07ade23ae3b46359c0911ec03ce8a58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_274f0edd32a3498cb42213c301e9bea9.setIcon(icon_e07ade23ae3b46359c0911ec03ce8a58);
+        
+    
+            marker_274f0edd32a3498cb42213c301e9bea9.bindTooltip(
+                `<div>
+                     6. Arc de Triomphe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ab35f717beb4339856fbfe008e54af8 = L.marker(
                 [48.8556475, 2.2986304],
                 {}
-            ).addTo(map_1fe9061d0efd4f819dc28acdfe42a78a);
+            ).addTo(map_bb6c986f9c80461db92484f03ce86aee);
         
     
-            var icon_684de5cbef0046a7a925bc65d69e35f6 = L.AwesomeMarkers.icon(
+            var icon_02e8fc872f6f4cce9ad0390d0c852034 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_9392cce6f767405f8e0ef68d45da14c7.setIcon(icon_684de5cbef0046a7a925bc65d69e35f6);
+            marker_3ab35f717beb4339856fbfe008e54af8.setIcon(icon_02e8fc872f6f4cce9ad0390d0c852034);
         
     
-            marker_9392cce6f767405f8e0ef68d45da14c7.bindTooltip(
+            marker_3ab35f717beb4339856fbfe008e54af8.bindTooltip(
                 `<div>
-                     6. Champ de Mars
+                     7. Champ de Mars
                  </div>`,
                 {"sticky": true}
             );
