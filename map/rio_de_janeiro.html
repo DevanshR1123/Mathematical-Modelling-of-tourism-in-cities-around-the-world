@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3401f19a9198434e8159d8168d07626d {
+                #map_f490d085769142b993a63857e3323618 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_3401f19a9198434e8159d8168d07626d" ></div>
+            <div class="folium-map" id="map_f490d085769142b993a63857e3323618" ></div>
         
 </body>
 <script>    
     
-            var map_3401f19a9198434e8159d8168d07626d = L.map(
-                "map_3401f19a9198434e8159d8168d07626d",
+            var map_f490d085769142b993a63857e3323618 = L.map(
+                "map_f490d085769142b993a63857e3323618",
                 {
                     center: [-22.9160833, -43.27119285],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,159 @@
 
         
     
-            var tile_layer_4c5a16c17fd74bd2b728f8b919583a10 = L.tileLayer(
+            var tile_layer_4bac90504a81408da5320c20a1765dff = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            map_3401f19a9198434e8159d8168d07626d.fitBounds(
+            map_f490d085769142b993a63857e3323618.fitBounds(
                 [[-23.064751400000002, -43.425051599999996], [-22.7674152, -43.1173341]],
                 {}
             );
         
     
-            var poly_line_f828added87d4500bc8a1dab8e74593a = L.polyline(
-                [[-22.9921466, -43.2332921999999], [-22.9121089, -43.2301558], [-22.951916, -43.2104872], [-22.8947155, -43.1797443], [-22.8958671, -43.1808415], [-22.89332, -43.1921598]],
+            var poly_line_f1dc8f9702f241a8854dd55f206b1dc8 = L.polyline(
+                [[-22.96731, -43.1793323], [-22.951916, -43.2104872], [-22.9121089, -43.2301558], [-22.89332, -43.1921598], [-22.8947155, -43.1797443], [-22.9008826, -43.1778419], [-22.8957843, -43.1795609]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            var marker_2ef26b8fc4104a0c99671fd91a3ecdbc = L.marker(
-                [-22.9921466, -43.2332921999999],
+            var marker_a090878c560b40c2893627968efe0a3a = L.marker(
+                [-22.96731, -43.1793323],
                 {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            var icon_4d4cd97068fe4a5faacda79a201eaa90 = L.AwesomeMarkers.icon(
+            var icon_53cf1ea0c46649a09906f0696156c09a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_2ef26b8fc4104a0c99671fd91a3ecdbc.setIcon(icon_4d4cd97068fe4a5faacda79a201eaa90);
+            marker_a090878c560b40c2893627968efe0a3a.setIcon(icon_53cf1ea0c46649a09906f0696156c09a);
         
     
-            marker_2ef26b8fc4104a0c99671fd91a3ecdbc.bindTooltip(
+            marker_a090878c560b40c2893627968efe0a3a.bindTooltip(
                 `<div>
-                     1. Sheraton Grand Rio Hotel & Resort
+                     1. Belmond Copacabana Palace
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_76d5f7e499664f75ba56780c9df305dc = L.marker(
-                [-22.9121089, -43.2301558],
-                {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
-        
-    
-            var icon_116ac10bc6e74a919de554d3b4d792f4 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_76d5f7e499664f75ba56780c9df305dc.setIcon(icon_116ac10bc6e74a919de554d3b4d792f4);
-        
-    
-            marker_76d5f7e499664f75ba56780c9df305dc.bindTooltip(
-                `<div>
-                     2. Maracana
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_2a8ff51e0d5d48cba80b27f8c26df438 = L.marker(
+            var marker_98a9c7cd54724a238e8ac0f22d4fde66 = L.marker(
                 [-22.951916, -43.2104872],
                 {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            var icon_80f6798c6d514581abb2ecca07f00851 = L.AwesomeMarkers.icon(
+            var icon_8f1b11a1988d40e2899dee1ae9ffc8ed = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_2a8ff51e0d5d48cba80b27f8c26df438.setIcon(icon_80f6798c6d514581abb2ecca07f00851);
+            marker_98a9c7cd54724a238e8ac0f22d4fde66.setIcon(icon_8f1b11a1988d40e2899dee1ae9ffc8ed);
         
     
-            marker_2a8ff51e0d5d48cba80b27f8c26df438.bindTooltip(
+            marker_98a9c7cd54724a238e8ac0f22d4fde66.bindTooltip(
                 `<div>
-                     3. Christ the Redeemer
+                     2. Christ the Redeemer
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_880e19d2e9f5409f80a8d216f083e203 = L.marker(
-                [-22.8947155, -43.1797443],
+            var marker_5ba50a4966dc44cfa5154b802e3e4bcc = L.marker(
+                [-22.9121089, -43.2301558],
                 {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            var icon_2802153dcad44dc2a64bff7afe61ad96 = L.AwesomeMarkers.icon(
+            var icon_c1774c69888c454f8b4a5d7112c8f95d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_880e19d2e9f5409f80a8d216f083e203.setIcon(icon_2802153dcad44dc2a64bff7afe61ad96);
+            marker_5ba50a4966dc44cfa5154b802e3e4bcc.setIcon(icon_c1774c69888c454f8b4a5d7112c8f95d);
         
     
-            marker_880e19d2e9f5409f80a8d216f083e203.bindTooltip(
+            marker_5ba50a4966dc44cfa5154b802e3e4bcc.bindTooltip(
                 `<div>
-                     4. Museu do Amanha
+                     3. Maracana
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_35ebcb1c20804553ba16b9bdf3e197f1 = L.marker(
-                [-22.8958671, -43.1808415],
-                {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
-        
-    
-            var icon_78320348553a4c248c06ed962344035c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_35ebcb1c20804553ba16b9bdf3e197f1.setIcon(icon_78320348553a4c248c06ed962344035c);
-        
-    
-            marker_35ebcb1c20804553ba16b9bdf3e197f1.bindTooltip(
-                `<div>
-                     5. Plaza Mauá
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_3920ee587ba448bc9169c7b954a67674 = L.marker(
+            var marker_e3b11d09f94d4f78ad89b076f4e3c972 = L.marker(
                 [-22.89332, -43.1921598],
                 {}
-            ).addTo(map_3401f19a9198434e8159d8168d07626d);
+            ).addTo(map_f490d085769142b993a63857e3323618);
         
     
-            var icon_8b0db73cb6e04360bfe3c430ddb8f998 = L.AwesomeMarkers.icon(
+            var icon_8de89801d68040668da0ab13794cae88 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_3920ee587ba448bc9169c7b954a67674.setIcon(icon_8b0db73cb6e04360bfe3c430ddb8f998);
+            marker_e3b11d09f94d4f78ad89b076f4e3c972.setIcon(icon_8de89801d68040668da0ab13794cae88);
         
     
-            marker_3920ee587ba448bc9169c7b954a67674.bindTooltip(
+            marker_e3b11d09f94d4f78ad89b076f4e3c972.bindTooltip(
                 `<div>
-                     6. Aquario Marinho do Rio de Janeiro
+                     4. Aquario Marinho do Rio de Janeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f5d782d3d194421ba4f98d04b40c7cd = L.marker(
+                [-22.8947155, -43.1797443],
+                {}
+            ).addTo(map_f490d085769142b993a63857e3323618);
+        
+    
+            var icon_926a355eafb34efd9e9620935288d760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f5d782d3d194421ba4f98d04b40c7cd.setIcon(icon_926a355eafb34efd9e9620935288d760);
+        
+    
+            marker_9f5d782d3d194421ba4f98d04b40c7cd.bindTooltip(
+                `<div>
+                     5. Museu do Amanha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbfd1ee65dec40e4ba74ae3c9ef7491c = L.marker(
+                [-22.9008826, -43.1778419],
+                {}
+            ).addTo(map_f490d085769142b993a63857e3323618);
+        
+    
+            var icon_0b99e48601094951955a1209f1e9a1c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dbfd1ee65dec40e4ba74ae3c9ef7491c.setIcon(icon_0b99e48601094951955a1209f1e9a1c7);
+        
+    
+            marker_dbfd1ee65dec40e4ba74ae3c9ef7491c.bindTooltip(
+                `<div>
+                     6. Igreja de Nossa Senhora da Candelaria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd207f8655104ff68365a54811709cdb = L.marker(
+                [-22.8957843, -43.1795609],
+                {}
+            ).addTo(map_f490d085769142b993a63857e3323618);
+        
+    
+            var icon_9999cb97c34b4a948b8d9b3e240869bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd207f8655104ff68365a54811709cdb.setIcon(icon_9999cb97c34b4a948b8d9b3e240869bd);
+        
+    
+            marker_fd207f8655104ff68365a54811709cdb.bindTooltip(
+                `<div>
+                     7. Boulevard Olimpico
                  </div>`,
                 {"sticky": true}
             );
