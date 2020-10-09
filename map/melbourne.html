@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_02d64fd434804d0d8228df291fca8da1 {
+                #map_d53470c337384d21bca253e61a342add {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_02d64fd434804d0d8228df291fca8da1" ></div>
+            <div class="folium-map" id="map_d53470c337384d21bca253e61a342add" ></div>
         
 </body>
 <script>    
     
-            var map_02d64fd434804d0d8228df291fca8da1 = L.map(
-                "map_02d64fd434804d0d8228df291fca8da1",
+            var map_d53470c337384d21bca253e61a342add = L.map(
+                "map_d53470c337384d21bca253e61a342add",
                 {
                     center: [-37.83128219999995, 144.95840049999998],
                     crs: L.CRS.EPSG3857,
@@ -55,159 +55,179 @@
 
         
     
-            var tile_layer_460565e77a3a426992b1535b1634fbf3 = L.tileLayer(
+            var tile_layer_3f5d9ca6adc74613af0ebaac6c9b106f = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            map_02d64fd434804d0d8228df291fca8da1.fitBounds(
+            map_d53470c337384d21bca253e61a342add.fitBounds(
                 [[-37.8997703, 144.88809669999998], [-37.7627940999999, 145.02870430000002]],
                 {}
             );
         
     
-            var poly_line_49aa2306441e4007ac97592b29b112a8 = L.polyline(
-                [[-37.822335, 144.9607308], [-37.8213341, 144.9646982], [-37.8225942, 144.9689278], [-37.8075798, 144.956785], [-37.8235301, 144.9580953], [-37.8320111, 144.9559391], [-37.8199669, 144.9834493]],
+            var poly_line_5efaadd0e4f9450cb36857b08e26a212 = L.polyline(
+                [[-37.8143056, 144.9671426], [-37.8075798, 144.956785], [-37.8235301, 144.9580953], [-37.8320111, 144.9559391], [-37.820183, 144.9681048], [-37.8054311999999, 144.9714124], [-37.8046891, 144.9716502], [-37.803273, 144.9717408]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var marker_5d33759232be4fb2b695cc0690382d90 = L.marker(
-                [-37.822335, 144.9607308],
+            var marker_ecbdd6dcba6e498095391918d159b38c = L.marker(
+                [-37.8143056, 144.9671426],
                 {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var icon_cf9f4266fcd74580b8fbc2ccf8ad76c2 = L.AwesomeMarkers.icon(
+            var icon_7a20b6d12c47487792d46eed7513932a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_5d33759232be4fb2b695cc0690382d90.setIcon(icon_cf9f4266fcd74580b8fbc2ccf8ad76c2);
+            marker_ecbdd6dcba6e498095391918d159b38c.setIcon(icon_7a20b6d12c47487792d46eed7513932a);
         
     
-            marker_5d33759232be4fb2b695cc0690382d90.bindTooltip(
+            marker_ecbdd6dcba6e498095391918d159b38c.bindTooltip(
                 `<div>
-                     1. Crown Towers Melbourne
+                     1. The Victoria Hotel
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_fc114b21124448478ba26dde0d513c40 = L.marker(
-                [-37.8213341, 144.9646982],
-                {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
-        
-    
-            var icon_cb0dd175a63c46c9af89109d6f825582 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_fc114b21124448478ba26dde0d513c40.setIcon(icon_cb0dd175a63c46c9af89109d6f825582);
-        
-    
-            marker_fc114b21124448478ba26dde0d513c40.bindTooltip(
-                `<div>
-                     2. Eureka Skydeck
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_418253cace904a088c47aff52327f708 = L.marker(
-                [-37.8225942, 144.9689278],
-                {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
-        
-    
-            var icon_696e458849904d10b9fb89d4e5ff1e96 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_418253cace904a088c47aff52327f708.setIcon(icon_696e458849904d10b9fb89d4e5ff1e96);
-        
-    
-            marker_418253cace904a088c47aff52327f708.bindTooltip(
-                `<div>
-                     3. National Gallery of Victoria
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_bdcee948fe6a44f688499bb9e8cf4730 = L.marker(
+            var marker_289394b3414a455985d7657aa52266c7 = L.marker(
                 [-37.8075798, 144.956785],
                 {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var icon_bc6ad9f0391a4dbf94217b817b95c6a1 = L.AwesomeMarkers.icon(
+            var icon_8d41b80325904d498580af244a16fca2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_bdcee948fe6a44f688499bb9e8cf4730.setIcon(icon_bc6ad9f0391a4dbf94217b817b95c6a1);
+            marker_289394b3414a455985d7657aa52266c7.setIcon(icon_8d41b80325904d498580af244a16fca2);
         
     
-            marker_bdcee948fe6a44f688499bb9e8cf4730.bindTooltip(
+            marker_289394b3414a455985d7657aa52266c7.bindTooltip(
                 `<div>
-                     4. Queen Victoria Market
+                     2. Queen Victoria Market
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a7adc62e3cb141cf9fd4fb94d540cde3 = L.marker(
+            var marker_d701efd059f749a8a66f60e273c96f37 = L.marker(
                 [-37.8235301, 144.9580953],
                 {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var icon_24f74eaad6c34da98993599dfb708d52 = L.AwesomeMarkers.icon(
+            var icon_2e622a162586462b9b6968ae9e053746 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a7adc62e3cb141cf9fd4fb94d540cde3.setIcon(icon_24f74eaad6c34da98993599dfb708d52);
+            marker_d701efd059f749a8a66f60e273c96f37.setIcon(icon_2e622a162586462b9b6968ae9e053746);
         
     
-            marker_a7adc62e3cb141cf9fd4fb94d540cde3.bindTooltip(
+            marker_d701efd059f749a8a66f60e273c96f37.bindTooltip(
                 `<div>
-                     5. Crown Melbourne
+                     3. Crown Melbourne
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1dbc0b860c634a1395463bfca618f2ac = L.marker(
+            var marker_5e9fbf54444643dab2f8fe9b42a70fbb = L.marker(
                 [-37.8320111, 144.9559391],
                 {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var icon_44763e8331df4983bb59c0daa7b408ce = L.AwesomeMarkers.icon(
+            var icon_2305290733364d4c98835fb17434ca42 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1dbc0b860c634a1395463bfca618f2ac.setIcon(icon_44763e8331df4983bb59c0daa7b408ce);
+            marker_5e9fbf54444643dab2f8fe9b42a70fbb.setIcon(icon_2305290733364d4c98835fb17434ca42);
         
     
-            marker_1dbc0b860c634a1395463bfca618f2ac.bindTooltip(
+            marker_5e9fbf54444643dab2f8fe9b42a70fbb.bindTooltip(
                 `<div>
-                     6. South Melbourne Market
+                     4. South Melbourne Market
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1d3ce4c1ef5541dd8c155aec426b1f1d = L.marker(
-                [-37.8199669, 144.9834493],
+            var marker_45cb52885fc34abcb7b4e03dbcead236 = L.marker(
+                [-37.820183, 144.9681048],
                 {}
-            ).addTo(map_02d64fd434804d0d8228df291fca8da1);
+            ).addTo(map_d53470c337384d21bca253e61a342add);
         
     
-            var icon_8ca439fb3acb413786f595c72d4ebafa = L.AwesomeMarkers.icon(
+            var icon_978a3bf6d74c4a93a872561edce769ae = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1d3ce4c1ef5541dd8c155aec426b1f1d.setIcon(icon_8ca439fb3acb413786f595c72d4ebafa);
+            marker_45cb52885fc34abcb7b4e03dbcead236.setIcon(icon_978a3bf6d74c4a93a872561edce769ae);
         
     
-            marker_1d3ce4c1ef5541dd8c155aec426b1f1d.bindTooltip(
+            marker_45cb52885fc34abcb7b4e03dbcead236.bindTooltip(
                 `<div>
-                     7. Melbourne Cricket Ground
+                     5. Arts Centre Melbourne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7045985d3d2464b9bef97adc4da7af2 = L.marker(
+                [-37.8054311999999, 144.9714124],
+                {}
+            ).addTo(map_d53470c337384d21bca253e61a342add);
+        
+    
+            var icon_ed42be854143450a8277593cdd026037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7045985d3d2464b9bef97adc4da7af2.setIcon(icon_ed42be854143450a8277593cdd026037);
+        
+    
+            marker_d7045985d3d2464b9bef97adc4da7af2.bindTooltip(
+                `<div>
+                     6. Carlton Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d963079de6e4550b208d4768efc223f = L.marker(
+                [-37.8046891, 144.9716502],
+                {}
+            ).addTo(map_d53470c337384d21bca253e61a342add);
+        
+    
+            var icon_b6977b706938415795d23c9594592d61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d963079de6e4550b208d4768efc223f.setIcon(icon_b6977b706938415795d23c9594592d61);
+        
+    
+            marker_0d963079de6e4550b208d4768efc223f.bindTooltip(
+                `<div>
+                     7. Royal Exhibition Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46f68b6ebdd5479d8c1abb4b6745f56f = L.marker(
+                [-37.803273, 144.9717408],
+                {}
+            ).addTo(map_d53470c337384d21bca253e61a342add);
+        
+    
+            var icon_98f8b3d9b34b4e00ac949875d366fcfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46f68b6ebdd5479d8c1abb4b6745f56f.setIcon(icon_98f8b3d9b34b4e00ac949875d366fcfc);
+        
+    
+            marker_46f68b6ebdd5479d8c1abb4b6745f56f.bindTooltip(
+                `<div>
+                     8. Melbourne Museum
                  </div>`,
                 {"sticky": true}
             );
