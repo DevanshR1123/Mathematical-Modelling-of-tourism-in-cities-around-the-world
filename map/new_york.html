@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_eb8ae605a84140cab07ffdcd6211d51f {
+                #map_9a5cab5c4bfb434bae19070bc53b7748 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_eb8ae605a84140cab07ffdcd6211d51f" ></div>
+            <div class="folium-map" id="map_9a5cab5c4bfb434bae19070bc53b7748" ></div>
         
 </body>
 <script>    
     
-            var map_eb8ae605a84140cab07ffdcd6211d51f = L.map(
-                "map_eb8ae605a84140cab07ffdcd6211d51f",
+            var map_9a5cab5c4bfb434bae19070bc53b7748 = L.map(
+                "map_9a5cab5c4bfb434bae19070bc53b7748",
                 {
                     center: [40.74168485, -73.99244464999995],
                     crs: L.CRS.EPSG3857,
@@ -55,159 +55,139 @@
 
         
     
-            var tile_layer_723bc84b05f440139ae6ae8b59f73ac6 = L.tileLayer(
+            var tile_layer_284ab6d072c7422e9553a7addd4ee6cb = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            map_eb8ae605a84140cab07ffdcd6211d51f.fitBounds(
+            map_9a5cab5c4bfb434bae19070bc53b7748.fitBounds(
                 [[40.6650355, -74.0658397], [40.818334199999995, -73.91904959999991]],
                 {}
             );
         
     
-            var poly_line_c0946a9205034d12a73536c3028cd597 = L.polyline(
-                [[40.7585862, -73.9858201999999], [40.7614327, -73.9776215999999], [40.7591124, -73.9795269999999], [40.7484405, -73.9856643999999], [40.7535965, -73.9832326], [40.7579747, -73.9855426], [40.7587105, -73.9785871999999]],
+            var poly_line_c7d796ca5c134fd4adf80f117ca72987 = L.polyline(
+                [[40.7627884, -73.9836945], [40.7484405, -73.9856643999999], [40.7586117, -73.9761953], [40.7579747, -73.9855426], [40.7587402, -73.9786736], [40.7812199, -73.9665138]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var marker_e7bf837f105e4ccb885566ea12590cf2 = L.marker(
-                [40.7585862, -73.9858201999999],
+            var marker_016757dad8814773888b5d6ea935429b = L.marker(
+                [40.7627884, -73.9836945],
                 {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var icon_23d3e5c15976413285b8ff8b2cb9e6e5 = L.AwesomeMarkers.icon(
+            var icon_d4dfcbc32523422a89224f32b8346162 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_e7bf837f105e4ccb885566ea12590cf2.setIcon(icon_23d3e5c15976413285b8ff8b2cb9e6e5);
+            marker_016757dad8814773888b5d6ea935429b.setIcon(icon_d4dfcbc32523422a89224f32b8346162);
         
     
-            marker_e7bf837f105e4ccb885566ea12590cf2.bindTooltip(
+            marker_016757dad8814773888b5d6ea935429b.bindTooltip(
                 `<div>
-                     1. New York Marriott Marquis
+                     1. Novotel New York Times Square
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_771205e101bc4c1195652645193f4726 = L.marker(
-                [40.7614327, -73.9776215999999],
-                {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
-        
-    
-            var icon_609cdc00626440dca28686c70b60395c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_771205e101bc4c1195652645193f4726.setIcon(icon_609cdc00626440dca28686c70b60395c);
-        
-    
-            marker_771205e101bc4c1195652645193f4726.bindTooltip(
-                `<div>
-                     2. The Museum of Modern Art
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_6b63bc4997be40c3814e06107ef1c0e6 = L.marker(
-                [40.7591124, -73.9795269999999],
-                {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
-        
-    
-            var icon_2584c10f46ea4e9da6b17a69f8598bbf = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_6b63bc4997be40c3814e06107ef1c0e6.setIcon(icon_2584c10f46ea4e9da6b17a69f8598bbf);
-        
-    
-            marker_6b63bc4997be40c3814e06107ef1c0e6.bindTooltip(
-                `<div>
-                     3. Top of The Rock
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_687baa99ff784bd7bd151864a491f69c = L.marker(
+            var marker_75dea9bb70d248f9b0894144734ca338 = L.marker(
                 [40.7484405, -73.9856643999999],
                 {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var icon_e3529b6f8ff84f248cf95cfcb2c87718 = L.AwesomeMarkers.icon(
+            var icon_879c3ed64c1e4d669b2aa35a80286de6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_687baa99ff784bd7bd151864a491f69c.setIcon(icon_e3529b6f8ff84f248cf95cfcb2c87718);
+            marker_75dea9bb70d248f9b0894144734ca338.setIcon(icon_879c3ed64c1e4d669b2aa35a80286de6);
         
     
-            marker_687baa99ff784bd7bd151864a491f69c.bindTooltip(
+            marker_75dea9bb70d248f9b0894144734ca338.bindTooltip(
                 `<div>
-                     4. Empire State Building
+                     2. Empire State Building
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_68a50045776f475facba7256e473cd90 = L.marker(
-                [40.7535965, -73.9832326],
+            var marker_16bbed4439cd4a4586cf2669344d7419 = L.marker(
+                [40.7586117, -73.9761953],
                 {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var icon_6d2407d4f633422d847a24fd6840bf7c = L.AwesomeMarkers.icon(
+            var icon_e215fedf8bca4e429623bed750e41069 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_68a50045776f475facba7256e473cd90.setIcon(icon_6d2407d4f633422d847a24fd6840bf7c);
+            marker_16bbed4439cd4a4586cf2669344d7419.setIcon(icon_e215fedf8bca4e429623bed750e41069);
         
     
-            marker_68a50045776f475facba7256e473cd90.bindTooltip(
+            marker_16bbed4439cd4a4586cf2669344d7419.bindTooltip(
                 `<div>
-                     5. Bryant Park
+                     3. St. Patrick's Cathedral
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_041ff1428b15432eb394befec28e2bb9 = L.marker(
+            var marker_c80d7ed96b3a472281dd63f20171128e = L.marker(
                 [40.7579747, -73.9855426],
                 {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var icon_609aa9e1bf0b45c191351e5d85c8d5b3 = L.AwesomeMarkers.icon(
+            var icon_03229821c49e42b6a8c3be9ab7c5728b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_041ff1428b15432eb394befec28e2bb9.setIcon(icon_609aa9e1bf0b45c191351e5d85c8d5b3);
+            marker_c80d7ed96b3a472281dd63f20171128e.setIcon(icon_03229821c49e42b6a8c3be9ab7c5728b);
         
     
-            marker_041ff1428b15432eb394befec28e2bb9.bindTooltip(
+            marker_c80d7ed96b3a472281dd63f20171128e.bindTooltip(
                 `<div>
-                     6. Times Square
+                     4. Times Square
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a5bf7eadf98e44ccb95cd7a5bb75bf21 = L.marker(
-                [40.7587105, -73.9785871999999],
+            var marker_a578f5db7e23467e8a6680411a7e7afa = L.marker(
+                [40.7587402, -73.9786736],
                 {}
-            ).addTo(map_eb8ae605a84140cab07ffdcd6211d51f);
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
         
     
-            var icon_613284530dab442c85b609324c7da64f = L.AwesomeMarkers.icon(
+            var icon_7f84c79a21514da0b9c48f6276170d20 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a5bf7eadf98e44ccb95cd7a5bb75bf21.setIcon(icon_613284530dab442c85b609324c7da64f);
+            marker_a578f5db7e23467e8a6680411a7e7afa.setIcon(icon_7f84c79a21514da0b9c48f6276170d20);
         
     
-            marker_a5bf7eadf98e44ccb95cd7a5bb75bf21.bindTooltip(
+            marker_a578f5db7e23467e8a6680411a7e7afa.bindTooltip(
                 `<div>
-                     7. Rockefeller Center Christmas Tree
+                     5. Rockefeller Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f793ca4524b4382826e185db6280a48 = L.marker(
+                [40.7812199, -73.9665138],
+                {}
+            ).addTo(map_9a5cab5c4bfb434bae19070bc53b7748);
+        
+    
+            var icon_c5fbcb93e48845428aa1887e2beda1dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f793ca4524b4382826e185db6280a48.setIcon(icon_c5fbcb93e48845428aa1887e2beda1dc);
+        
+    
+            marker_5f793ca4524b4382826e185db6280a48.bindTooltip(
+                `<div>
+                     6. Central Park
                  </div>`,
                 {"sticky": true}
             );
