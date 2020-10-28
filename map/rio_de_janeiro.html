@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bddcc1bcf794490fa482c6e224de1f1a {
+                #map_497628c465864ccc89096187469db2fa {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_bddcc1bcf794490fa482c6e224de1f1a" ></div>
+            <div class="folium-map" id="map_497628c465864ccc89096187469db2fa" ></div>
         
 </body>
 <script>    
     
-            var map_bddcc1bcf794490fa482c6e224de1f1a = L.map(
-                "map_bddcc1bcf794490fa482c6e224de1f1a",
+            var map_497628c465864ccc89096187469db2fa = L.map(
+                "map_497628c465864ccc89096187469db2fa",
                 {
                     center: [-22.9160833, -43.27119285],
                     crs: L.CRS.EPSG3857,
@@ -55,139 +55,119 @@
 
         
     
-            var tile_layer_3c8ab6cd7c2541b1a727a936874b174f = L.tileLayer(
+            var tile_layer_afd28cb0021d4d00b448efed6a2ab8b0 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            map_bddcc1bcf794490fa482c6e224de1f1a.fitBounds(
+            map_497628c465864ccc89096187469db2fa.fitBounds(
                 [[-23.064751400000002, -43.425051599999996], [-22.7674152, -43.1173341]],
                 {}
             );
         
     
-            var poly_line_be86dfca91eb4dcd99022e871c5dc2ff = L.polyline(
-                [[-22.9139264, -43.1673341], [-22.8947155, -43.1797443], [-22.9153317, -43.1777908], [-22.9121089, -43.2301558], [-22.9581535, -43.2116428999999], [-22.9492908, -43.2873343]],
+            var poly_line_30ed2f2b4a984c80895176c8f869c6d5 = L.polyline(
+                [[-22.9921466, -43.2332921999999], [-22.951916, -43.2104872], [-22.8947155, -43.1797443], [-22.9114522, -43.196804], [-22.8981056, -43.2198181]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            var marker_9817b260deaf4d8d80c89c522a0a04f5 = L.marker(
-                [-22.9139264, -43.1673341],
+            var marker_34408bac3e4e440fbe2fa8449b95ed0f = L.marker(
+                [-22.9921466, -43.2332921999999],
                 {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            var icon_663471012ff046d0845cae0363fb2a81 = L.AwesomeMarkers.icon(
+            var icon_26d48e85422647138b3b716503679301 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_9817b260deaf4d8d80c89c522a0a04f5.setIcon(icon_663471012ff046d0845cae0363fb2a81);
+            marker_34408bac3e4e440fbe2fa8449b95ed0f.setIcon(icon_26d48e85422647138b3b716503679301);
         
     
-            marker_9817b260deaf4d8d80c89c522a0a04f5.bindTooltip(
+            marker_34408bac3e4e440fbe2fa8449b95ed0f.bindTooltip(
                 `<div>
-                     1. Prodigy Hotel Santos Dumont Airport Rio de Janeiro
+                     1. Sheraton Grand Rio Hotel & Resort
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1ee9aa27a85c47919f6f05b1085a3eba = L.marker(
+            var marker_ccbaf269517c4b119ae2868e9627609e = L.marker(
+                [-22.951916, -43.2104872],
+                {}
+            ).addTo(map_497628c465864ccc89096187469db2fa);
+        
+    
+            var icon_77cc7996589f4b94935003bb518c401b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccbaf269517c4b119ae2868e9627609e.setIcon(icon_77cc7996589f4b94935003bb518c401b);
+        
+    
+            marker_ccbaf269517c4b119ae2868e9627609e.bindTooltip(
+                `<div>
+                     2. Christ the Redeemer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e73c2115cfa46fea61bde0711ee8796 = L.marker(
                 [-22.8947155, -43.1797443],
                 {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            var icon_d4e0770504c043c9b22000ab91e14609 = L.AwesomeMarkers.icon(
+            var icon_fba0a89cafd04b6b974416a89d622344 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1ee9aa27a85c47919f6f05b1085a3eba.setIcon(icon_d4e0770504c043c9b22000ab91e14609);
+            marker_2e73c2115cfa46fea61bde0711ee8796.setIcon(icon_fba0a89cafd04b6b974416a89d622344);
         
     
-            marker_1ee9aa27a85c47919f6f05b1085a3eba.bindTooltip(
+            marker_2e73c2115cfa46fea61bde0711ee8796.bindTooltip(
                 `<div>
-                     2. Museu do Amanha
+                     3. Museu do Amanha
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b63e39391c804bd79d249d9e2b8de065 = L.marker(
-                [-22.9153317, -43.1777908],
+            var marker_8fe89e7c0aaa475ca587560e0e810cfb = L.marker(
+                [-22.9114522, -43.196804],
                 {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            var icon_71cd4ca318e4455ebc9d210c0dc3e12c = L.AwesomeMarkers.icon(
+            var icon_90f7a03d1d5a409aadc88d2cdec7a1ba = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_b63e39391c804bd79d249d9e2b8de065.setIcon(icon_71cd4ca318e4455ebc9d210c0dc3e12c);
+            marker_8fe89e7c0aaa475ca587560e0e810cfb.setIcon(icon_90f7a03d1d5a409aadc88d2cdec7a1ba);
         
     
-            marker_b63e39391c804bd79d249d9e2b8de065.bindTooltip(
+            marker_8fe89e7c0aaa475ca587560e0e810cfb.bindTooltip(
                 `<div>
-                     3. Escadaria Selaron
+                     4. Sambadrome Marques de Sapucai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a2d1c43b6787463680258413fa7ebfb1 = L.marker(
-                [-22.9121089, -43.2301558],
+            var marker_adb138d40eef46f1ba43ff41b2b2cbe4 = L.marker(
+                [-22.8981056, -43.2198181],
                 {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
+            ).addTo(map_497628c465864ccc89096187469db2fa);
         
     
-            var icon_205df431823747ec83f3c88da62690ec = L.AwesomeMarkers.icon(
+            var icon_6e7faff38acf4b64b860974d6d047486 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_a2d1c43b6787463680258413fa7ebfb1.setIcon(icon_205df431823747ec83f3c88da62690ec);
+            marker_adb138d40eef46f1ba43ff41b2b2cbe4.setIcon(icon_6e7faff38acf4b64b860974d6d047486);
         
     
-            marker_a2d1c43b6787463680258413fa7ebfb1.bindTooltip(
+            marker_adb138d40eef46f1ba43ff41b2b2cbe4.bindTooltip(
                 `<div>
-                     4. Maracana
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_38a48ff8cefd48e5bba88620e9520cde = L.marker(
-                [-22.9581535, -43.2116428999999],
-                {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
-        
-    
-            var icon_689478cfcea54648abb09c7b7aad281f = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_38a48ff8cefd48e5bba88620e9520cde.setIcon(icon_689478cfcea54648abb09c7b7aad281f);
-        
-    
-            marker_38a48ff8cefd48e5bba88620e9520cde.bindTooltip(
-                `<div>
-                     5. Parque Lage
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_18f02fb9843b402f8eee1834f67ca7dc = L.marker(
-                [-22.9492908, -43.2873343],
-                {}
-            ).addTo(map_bddcc1bcf794490fa482c6e224de1f1a);
-        
-    
-            var icon_42ceb6fb24694c9a839396b7660cd43c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_18f02fb9843b402f8eee1834f67ca7dc.setIcon(icon_42ceb6fb24694c9a839396b7660cd43c);
-        
-    
-            marker_18f02fb9843b402f8eee1834f67ca7dc.bindTooltip(
-                `<div>
-                     6. Tijuca National Park
+                     5. Feira de Sao Cristovao
                  </div>`,
                 {"sticky": true}
             );
