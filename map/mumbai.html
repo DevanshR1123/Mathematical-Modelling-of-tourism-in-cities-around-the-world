@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b5807f01d15943a79902c661766ee91e {
+                #map_218448e5d9ed435eb20a4667e28c08eb {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_b5807f01d15943a79902c661766ee91e" ></div>
+            <div class="folium-map" id="map_218448e5d9ed435eb20a4667e28c08eb" ></div>
         
 </body>
 <script>    
     
-            var map_b5807f01d15943a79902c661766ee91e = L.map(
-                "map_b5807f01d15943a79902c661766ee91e",
+            var map_218448e5d9ed435eb20a4667e28c08eb = L.map(
+                "map_218448e5d9ed435eb20a4667e28c08eb",
                 {
                     center: [19.0479879, 72.84479479999996],
                     crs: L.CRS.EPSG3857,
@@ -55,159 +55,139 @@
 
         
     
-            var tile_layer_95b1bee112a54fe6bd70415c38706f42 = L.tileLayer(
+            var tile_layer_c6fc4a6d90e6496c8a75377bcc91feae = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            map_b5807f01d15943a79902c661766ee91e.fitBounds(
+            map_218448e5d9ed435eb20a4667e28c08eb.fitBounds(
                 [[18.8725854, 72.7694558], [19.2233904, 72.9201337999999]],
                 {}
             );
         
     
-            var poly_line_9173d89dbe78470eafe86b981d27ab4d = L.polyline(
-                [[19.0971452999999, 72.8546963], [19.0866203, 72.8885497999999], [18.9219841, 72.8346543], [18.9269015, 72.8326915999999], [18.9259588, 72.831385], [18.9298297, 72.8217287], [19.0168159, 72.8302491]],
+            var poly_line_97ae93f26f554719bbdafca8a263139a = L.polyline(
+                [[19.0711775, 72.8543282], [18.9219841, 72.8346543], [18.9298297, 72.8217287], [18.9259588, 72.831385], [18.9296227, 72.8288877], [18.9273983, 72.8316856]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            var marker_77209abc439642398695449c666da676 = L.marker(
-                [19.0971452999999, 72.8546963],
+            var marker_362b724220e44be79f218c6199ebe04d = L.marker(
+                [19.0711775, 72.8543282],
                 {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            var icon_d7c9e34b3d43459db97745bc703f465a = L.AwesomeMarkers.icon(
+            var icon_3eeed2da4c56404aa74188423d84818d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_77209abc439642398695449c666da676.setIcon(icon_d7c9e34b3d43459db97745bc703f465a);
+            marker_362b724220e44be79f218c6199ebe04d.setIcon(icon_3eeed2da4c56404aa74188423d84818d);
         
     
-            marker_77209abc439642398695449c666da676.bindTooltip(
+            marker_362b724220e44be79f218c6199ebe04d.bindTooltip(
                 `<div>
-                     1. The Orchid Hotel Mumbai Vile Parle
+                     1. Trident Hotel Bandra Kurla
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_49fdf964b12b4941bfc71807655aa169 = L.marker(
-                [19.0866203, 72.8885497999999],
-                {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
-        
-    
-            var icon_5c41e6c94e4f4d8684d91964b2fe9a38 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_49fdf964b12b4941bfc71807655aa169.setIcon(icon_5c41e6c94e4f4d8684d91964b2fe9a38);
-        
-    
-            marker_49fdf964b12b4941bfc71807655aa169.bindTooltip(
-                `<div>
-                     2. Snow World Mumbai
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_57219c6ccfa249f797513c79c19271d6 = L.marker(
+            var marker_9fa312119abb40f6943a9e17aac5dadc = L.marker(
                 [18.9219841, 72.8346543],
                 {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            var icon_65a31a006ade42fcad10cfebc3021138 = L.AwesomeMarkers.icon(
+            var icon_86f4b4dbb7854393a6773553d4e56f54 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_57219c6ccfa249f797513c79c19271d6.setIcon(icon_65a31a006ade42fcad10cfebc3021138);
+            marker_9fa312119abb40f6943a9e17aac5dadc.setIcon(icon_86f4b4dbb7854393a6773553d4e56f54);
         
     
-            marker_57219c6ccfa249f797513c79c19271d6.bindTooltip(
+            marker_9fa312119abb40f6943a9e17aac5dadc.bindTooltip(
                 `<div>
-                     3. Gateway Of India Mumbai
+                     2. Gateway Of India Mumbai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b039cc715c854673ba8221718f6a164b = L.marker(
-                [18.9269015, 72.8326915999999],
-                {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
-        
-    
-            var icon_269768699ff345fa901467b258d8c951 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_b039cc715c854673ba8221718f6a164b.setIcon(icon_269768699ff345fa901467b258d8c951);
-        
-    
-            marker_b039cc715c854673ba8221718f6a164b.bindTooltip(
-                `<div>
-                     4. Chhatrapati Shivaji Maharaj Vastu Sangrahalaya
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_011b4db41d1b4d6ea10fb3d7fb6f50cd = L.marker(
-                [18.9259588, 72.831385],
-                {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
-        
-    
-            var icon_d4340d30e716480496cad52c60d3314e = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_011b4db41d1b4d6ea10fb3d7fb6f50cd.setIcon(icon_d4340d30e716480496cad52c60d3314e);
-        
-    
-            marker_011b4db41d1b4d6ea10fb3d7fb6f50cd.bindTooltip(
-                `<div>
-                     5. National Gallery of Modern Art
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_15ea6ae9ebbc4dbbb282bb3bb52ee25b = L.marker(
+            var marker_44288585bd93419881e51c6578dec117 = L.marker(
                 [18.9298297, 72.8217287],
                 {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            var icon_131b443f2433477586be8b65af89631b = L.AwesomeMarkers.icon(
+            var icon_c2fadb6f67bb4d89950cb444ebf2502d = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_15ea6ae9ebbc4dbbb282bb3bb52ee25b.setIcon(icon_131b443f2433477586be8b65af89631b);
+            marker_44288585bd93419881e51c6578dec117.setIcon(icon_c2fadb6f67bb4d89950cb444ebf2502d);
         
     
-            marker_15ea6ae9ebbc4dbbb282bb3bb52ee25b.bindTooltip(
+            marker_44288585bd93419881e51c6578dec117.bindTooltip(
                 `<div>
-                     6. Queen's Necklace - Marine Drive
+                     3. Queen's Necklace - Marine Drive
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_1622a33aa17c4f748b8afaa27c555f41 = L.marker(
-                [19.0168159, 72.8302491],
+            var marker_77744262a90d4e75bb9e11582348e146 = L.marker(
+                [18.9259588, 72.831385],
                 {}
-            ).addTo(map_b5807f01d15943a79902c661766ee91e);
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
         
     
-            var icon_37886de4f49f4226afa8df88a9a831e7 = L.AwesomeMarkers.icon(
+            var icon_9882abea0f514055a8e85618a91b67af = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1622a33aa17c4f748b8afaa27c555f41.setIcon(icon_37886de4f49f4226afa8df88a9a831e7);
+            marker_77744262a90d4e75bb9e11582348e146.setIcon(icon_9882abea0f514055a8e85618a91b67af);
         
     
-            marker_1622a33aa17c4f748b8afaa27c555f41.bindTooltip(
+            marker_77744262a90d4e75bb9e11582348e146.bindTooltip(
                 `<div>
-                     7. Shri Siddhi Vinayak Ganpati Mandir
+                     4. National Gallery of Modern Art
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_582f77a344d44cb0bd01f43eb8b78b22 = L.marker(
+                [18.9296227, 72.8288877],
+                {}
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
+        
+    
+            var icon_bfd14a9cc75041bab19c98386065bd93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_582f77a344d44cb0bd01f43eb8b78b22.setIcon(icon_bfd14a9cc75041bab19c98386065bd93);
+        
+    
+            marker_582f77a344d44cb0bd01f43eb8b78b22.bindTooltip(
+                `<div>
+                     5. Oval Maidan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfc4582e7ed042b69564d8eaf843beac = L.marker(
+                [18.9273983, 72.8316856],
+                {}
+            ).addTo(map_218448e5d9ed435eb20a4667e28c08eb);
+        
+    
+            var icon_ba37f151aa1e42669b01af052b4d2306 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cfc4582e7ed042b69564d8eaf843beac.setIcon(icon_ba37f151aa1e42669b01af052b4d2306);
+        
+    
+            marker_cfc4582e7ed042b69564d8eaf843beac.bindTooltip(
+                `<div>
+                     6. Jehangir Art Gallery
                  </div>`,
                 {"sticky": true}
             );
