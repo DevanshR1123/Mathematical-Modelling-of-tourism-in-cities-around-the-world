@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c8a481d3d3654018aa690154c9cebe21 {
+                #map_6feb201eddc845dea681713c102f1a03 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_c8a481d3d3654018aa690154c9cebe21" ></div>
+            <div class="folium-map" id="map_6feb201eddc845dea681713c102f1a03" ></div>
         
 </body>
 <script>    
     
-            var map_c8a481d3d3654018aa690154c9cebe21 = L.map(
-                "map_c8a481d3d3654018aa690154c9cebe21",
+            var map_6feb201eddc845dea681713c102f1a03 = L.map(
+                "map_6feb201eddc845dea681713c102f1a03",
                 {
                     center: [25.2046703, 55.2334585],
                     crs: L.CRS.EPSG3857,
@@ -55,119 +55,159 @@
 
         
     
-            var tile_layer_b0be0220361548fdaac6c9fc7ec37fa6 = L.tileLayer(
+            var tile_layer_8ad6fb44d6874fc6979e8ea5d2d2f06c = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
         
     
-            map_c8a481d3d3654018aa690154c9cebe21.fitBounds(
+            map_6feb201eddc845dea681713c102f1a03.fitBounds(
                 [[25.080442599999998, 55.0671498], [25.328898000000002, 55.3997672]],
                 {}
             );
         
     
-            var poly_line_b4a7f44e8377458e811732117a7771b4 = L.polyline(
-                [[25.1304426, 55.1171498], [25.1951554, 55.2751579], [25.197197, 55.2743763999999], [25.198765, 55.2796053], [25.118107, 55.200608]],
+            var poly_line_183829f46f7143d88ab06367a37d1e76 = L.polyline(
+                [[25.1854005, 55.2580876], [25.197197, 55.2743763999999], [25.118107, 55.200608], [25.1332369, 55.1866122], [25.1335895, 55.1200479], [25.1319161, 55.1183542], [25.198765, 55.2796053]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
         
     
-            var marker_cda53deba77645008bee204362da7278 = L.marker(
-                [25.1304426, 55.1171498],
+            var marker_19a70be3c5184370aa52e00241d80cf8 = L.marker(
+                [25.1854005, 55.2580876],
                 {}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
         
     
-            var icon_452e8116948d40569bf24c63bcb94276 = L.AwesomeMarkers.icon(
+            var icon_d63d6c2980e44ac9992fbd756537beac = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_cda53deba77645008bee204362da7278.setIcon(icon_452e8116948d40569bf24c63bcb94276);
+            marker_19a70be3c5184370aa52e00241d80cf8.setIcon(icon_d63d6c2980e44ac9992fbd756537beac);
         
     
-            marker_cda53deba77645008bee204362da7278.bindTooltip(
+            marker_19a70be3c5184370aa52e00241d80cf8.bindTooltip(
                 `<div>
-                     1. Atlantis
+                     1. JW Marriott Marquis Hotel Dubai
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_26eff7fad6bd4a95acadb24be77021c5 = L.marker(
-                [25.1951554, 55.2751579],
-                {}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
-        
-    
-            var icon_c50441fd89fd4e6eb5d7a6e1af26d75a = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_26eff7fad6bd4a95acadb24be77021c5.setIcon(icon_c50441fd89fd4e6eb5d7a6e1af26d75a);
-        
-    
-            marker_26eff7fad6bd4a95acadb24be77021c5.bindTooltip(
-                `<div>
-                     2. The Dubai Fountain
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_5e52246a55e749218c8aea9e8e980077 = L.marker(
+            var marker_976475a010604393bb77d8831417603e = L.marker(
                 [25.197197, 55.2743763999999],
                 {}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
         
     
-            var icon_a9942adb874d44b2b70bf79e50acfaa8 = L.AwesomeMarkers.icon(
+            var icon_0d3b87be8d37433fa5939f639ac39d53 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_5e52246a55e749218c8aea9e8e980077.setIcon(icon_a9942adb874d44b2b70bf79e50acfaa8);
+            marker_976475a010604393bb77d8831417603e.setIcon(icon_0d3b87be8d37433fa5939f639ac39d53);
         
     
-            marker_5e52246a55e749218c8aea9e8e980077.bindTooltip(
+            marker_976475a010604393bb77d8831417603e.bindTooltip(
                 `<div>
-                     3. Burj Khalifa
+                     2. Burj Khalifa
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b2509c7218834b8f98c1cc502a25637a = L.marker(
-                [25.198765, 55.2796053],
-                {}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
-        
-    
-            var icon_86192ecac804447aa1d0282b7b2003aa = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_b2509c7218834b8f98c1cc502a25637a.setIcon(icon_86192ecac804447aa1d0282b7b2003aa);
-        
-    
-            marker_b2509c7218834b8f98c1cc502a25637a.bindTooltip(
-                `<div>
-                     4. The Dubai Mall
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_83875bbf60634167949cea223b1ea86f = L.marker(
+            var marker_d18d5111b2a744a5992195d5be694340 = L.marker(
                 [25.118107, 55.200608],
                 {}
-            ).addTo(map_c8a481d3d3654018aa690154c9cebe21);
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
         
     
-            var icon_15f6631890db4b1e88d04b68fdd01e89 = L.AwesomeMarkers.icon(
+            var icon_6fe97d0cff7c4fba8cf67470aa619cec = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_83875bbf60634167949cea223b1ea86f.setIcon(icon_15f6631890db4b1e88d04b68fdd01e89);
+            marker_d18d5111b2a744a5992195d5be694340.setIcon(icon_6fe97d0cff7c4fba8cf67470aa619cec);
         
     
-            marker_83875bbf60634167949cea223b1ea86f.bindTooltip(
+            marker_d18d5111b2a744a5992195d5be694340.bindTooltip(
                 `<div>
-                     5. Mall of the Emirates
+                     3. Mall of the Emirates
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4745c61ee0194a1d97af94fc81b26269 = L.marker(
+                [25.1332369, 55.1866122],
+                {}
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
+        
+    
+            var icon_22d0f41df73f43a8a4a4a7988cbdd58b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4745c61ee0194a1d97af94fc81b26269.setIcon(icon_22d0f41df73f43a8a4a4a7988cbdd58b);
+        
+    
+            marker_4745c61ee0194a1d97af94fc81b26269.bindTooltip(
+                `<div>
+                     4. Souk Madinat Jumeirah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e05ef013da34bd2b804a7a33987f1b5 = L.marker(
+                [25.1335895, 55.1200479],
+                {}
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
+        
+    
+            var icon_5d100d044431492798cba343fe78bd8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e05ef013da34bd2b804a7a33987f1b5.setIcon(icon_5d100d044431492798cba343fe78bd8b);
+        
+    
+            marker_5e05ef013da34bd2b804a7a33987f1b5.bindTooltip(
+                `<div>
+                     5. Aquaventure Waterpark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff15aded95684b66ac4c1f87342944d6 = L.marker(
+                [25.1319161, 55.1183542],
+                {}
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
+        
+    
+            var icon_d1abfd1172114ec9aa2b75dd5e95a77f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff15aded95684b66ac4c1f87342944d6.setIcon(icon_d1abfd1172114ec9aa2b75dd5e95a77f);
+        
+    
+            marker_ff15aded95684b66ac4c1f87342944d6.bindTooltip(
+                `<div>
+                     6. The Lost Chambers Aquarium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94ad67ed25074e82a31d08c79a43f173 = L.marker(
+                [25.198765, 55.2796053],
+                {}
+            ).addTo(map_6feb201eddc845dea681713c102f1a03);
+        
+    
+            var icon_acb63a454cc94aad806c554bf4f3ea07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94ad67ed25074e82a31d08c79a43f173.setIcon(icon_acb63a454cc94aad806c554bf4f3ea07);
+        
+    
+            marker_94ad67ed25074e82a31d08c79a43f173.bindTooltip(
+                `<div>
+                     7. The Dubai Mall
                  </div>`,
                 {"sticky": true}
             );
