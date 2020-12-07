@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fd761f17b96546439bfbdfbc903194be {
+                #map_45f4a6f149fe44158cf04b4d5998338d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_fd761f17b96546439bfbdfbc903194be" ></div>
+            <div class="folium-map" id="map_45f4a6f149fe44158cf04b4d5998338d" ></div>
         
 </body>
 <script>    
     
-            var map_fd761f17b96546439bfbdfbc903194be = L.map(
-                "map_fd761f17b96546439bfbdfbc903194be",
+            var map_45f4a6f149fe44158cf04b4d5998338d = L.map(
+                "map_45f4a6f149fe44158cf04b4d5998338d",
                 {
                     center: [13.76116815, 100.52877624999999],
                     crs: L.CRS.EPSG3857,
@@ -55,37 +55,37 @@
 
         
     
-            var tile_layer_f80175a3a06144a2afbe03f9c1d0ec51 = L.tileLayer(
+            var tile_layer_9ad54acaae37443f80b911e68be9d6bc = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            map_fd761f17b96546439bfbdfbc903194be.fitBounds(
+            map_45f4a6f149fe44158cf04b4d5998338d.fitBounds(
                 [[13.654460499999999, 100.4419712], [13.8678758, 100.6155813]],
                 {}
             );
         
     
-            var poly_line_4eac8fada6e344b0b612b5e7a71f835b = L.polyline(
-                [[13.7194775, 100.5136345], [13.799387, 100.5487751], [13.7465718, 100.4933053], [13.744147, 100.494137], [13.7413585, 100.508018], [13.7447542, 100.529956]],
+            var poly_line_a7cd1d349fd642518c2c5c997fde3d14 = L.polyline(
+                [[13.7194775, 100.5136345], [13.7500943, 100.491304], [13.7516435, 100.4927041], [13.799387, 100.5487751], [13.7044191, 100.5032671], [13.7493205, 100.5282095]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            var marker_3a17e61068de48d39038e28e40ab4cad = L.marker(
+            var marker_5af3bebe34e949198cd633765523760a = L.marker(
                 [13.7194775, 100.5136345],
                 {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            var icon_4015e42bb586455d9348bbaee0e7f36e = L.AwesomeMarkers.icon(
+            var icon_007ac4b38dae43319056f166b524cf81 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_3a17e61068de48d39038e28e40ab4cad.setIcon(icon_4015e42bb586455d9348bbaee0e7f36e);
+            marker_5af3bebe34e949198cd633765523760a.setIcon(icon_007ac4b38dae43319056f166b524cf81);
         
     
-            marker_3a17e61068de48d39038e28e40ab4cad.bindTooltip(
+            marker_5af3bebe34e949198cd633765523760a.bindTooltip(
                 `<div>
                      1. Shangri-La Hotel
                  </div>`,
@@ -93,101 +93,101 @@
             );
         
     
-            var marker_eb31642a24db4d7d950af8d43725f2a5 = L.marker(
+            var marker_443127e2ba1946ae98bec759e1ee2523 = L.marker(
+                [13.7500943, 100.491304],
+                {}
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
+        
+    
+            var icon_5e3e242d62fd43f7bbd2764437da997b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_443127e2ba1946ae98bec759e1ee2523.setIcon(icon_5e3e242d62fd43f7bbd2764437da997b);
+        
+    
+            marker_443127e2ba1946ae98bec759e1ee2523.bindTooltip(
+                `<div>
+                     2. The Grand Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1340997c9e34d45b1db07440ab5a5df = L.marker(
+                [13.7516435, 100.4927041],
+                {}
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
+        
+    
+            var icon_188f4f383a984febb780ba766b069ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1340997c9e34d45b1db07440ab5a5df.setIcon(icon_188f4f383a984febb780ba766b069ff7);
+        
+    
+            marker_e1340997c9e34d45b1db07440ab5a5df.bindTooltip(
+                `<div>
+                     3. Temple of the Emerald Buddha - Wat Phra Si Rattana Satsadaram / Wat Phra Kaew
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa3671dfb0444c9ba792e75fdc374ae2 = L.marker(
                 [13.799387, 100.5487751],
                 {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            var icon_a4941cc2122d4e11829ec40bb8d5b3ce = L.AwesomeMarkers.icon(
+            var icon_fe15743dbd284307bc4763906c370d29 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_eb31642a24db4d7d950af8d43725f2a5.setIcon(icon_a4941cc2122d4e11829ec40bb8d5b3ce);
+            marker_aa3671dfb0444c9ba792e75fdc374ae2.setIcon(icon_fe15743dbd284307bc4763906c370d29);
         
     
-            marker_eb31642a24db4d7d950af8d43725f2a5.bindTooltip(
+            marker_aa3671dfb0444c9ba792e75fdc374ae2.bindTooltip(
                 `<div>
-                     2. Chatuchak Weekend Market
+                     4. Chatuchak Weekend Market
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_32755144a82446668b725b0cf632d314 = L.marker(
-                [13.7465718, 100.4933053],
+            var marker_13ec1f7bcbfe43389a7c0b62bf58840d = L.marker(
+                [13.7044191, 100.5032671],
                 {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            var icon_ac5dd04ac28b41c2a1f7d6102c5f9150 = L.AwesomeMarkers.icon(
+            var icon_0fe2d6a27a884a9581fae3d597c92aac = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_32755144a82446668b725b0cf632d314.setIcon(icon_ac5dd04ac28b41c2a1f7d6102c5f9150);
+            marker_13ec1f7bcbfe43389a7c0b62bf58840d.setIcon(icon_0fe2d6a27a884a9581fae3d597c92aac);
         
     
-            marker_32755144a82446668b725b0cf632d314.bindTooltip(
+            marker_13ec1f7bcbfe43389a7c0b62bf58840d.bindTooltip(
                 `<div>
-                     3. Wat Phra Chetuphon
+                     5. ASIATIQUE The Riverfront
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_85a269aa646d43adb6f3dcff3e0ca5c0 = L.marker(
-                [13.744147, 100.494137],
+            var marker_060173b1df7f4495a24b6b60ed7d6752 = L.marker(
+                [13.7493205, 100.5282095],
                 {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
+            ).addTo(map_45f4a6f149fe44158cf04b4d5998338d);
         
     
-            var icon_57a1eeac9820470a985768a4286fceb8 = L.AwesomeMarkers.icon(
+            var icon_0c6fcbe6ed8648c5a24c1720a045a687 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_85a269aa646d43adb6f3dcff3e0ca5c0.setIcon(icon_57a1eeac9820470a985768a4286fceb8);
+            marker_060173b1df7f4495a24b6b60ed7d6752.setIcon(icon_0c6fcbe6ed8648c5a24c1720a045a687);
         
     
-            marker_85a269aa646d43adb6f3dcff3e0ca5c0.bindTooltip(
+            marker_060173b1df7f4495a24b6b60ed7d6752.bindTooltip(
                 `<div>
-                     4. Museum Siam
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_9c0e2af8cfcf4c1c805ff7130d89163d = L.marker(
-                [13.7413585, 100.508018],
-                {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
-        
-    
-            var icon_c4c781d473c14906bc39f86301942ad1 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_9c0e2af8cfcf4c1c805ff7130d89163d.setIcon(icon_c4c781d473c14906bc39f86301942ad1);
-        
-    
-            marker_9c0e2af8cfcf4c1c805ff7130d89163d.bindTooltip(
-                `<div>
-                     5. Yaowarat Road
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_c418be4a3e1e4c768d6dddb1714ba5d0 = L.marker(
-                [13.7447542, 100.529956],
-                {}
-            ).addTo(map_fd761f17b96546439bfbdfbc903194be);
-        
-    
-            var icon_89edd43473a34ac4b34e2301c6c4f358 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_c418be4a3e1e4c768d6dddb1714ba5d0.setIcon(icon_89edd43473a34ac4b34e2301c6c4f358);
-        
-    
-            marker_c418be4a3e1e4c768d6dddb1714ba5d0.bindTooltip(
-                `<div>
-                     6. MBK Center
+                     6. Jim Thompson House Museum
                  </div>`,
                 {"sticky": true}
             );
