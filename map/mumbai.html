@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<head>    
+<html>
+<head>
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -7,41 +9,44 @@
             L_DISABLE_3D = false;
         </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_46d3c1dc5bc4432f87165b1e1ec009de {
+                #map_047bfd21e8e5cdeb3ddfec0f13b669ba {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
+                .leaflet-container { font-size: 1rem; }
             </style>
         
 </head>
-<body>    
+<body>
     
-            <div class="folium-map" id="map_46d3c1dc5bc4432f87165b1e1ec009de" ></div>
+    
+            <div class="folium-map" id="map_047bfd21e8e5cdeb3ddfec0f13b669ba" ></div>
         
 </body>
-<script>    
+<script>
     
-            var map_46d3c1dc5bc4432f87165b1e1ec009de = L.map(
-                "map_46d3c1dc5bc4432f87165b1e1ec009de",
+    
+            var map_047bfd21e8e5cdeb3ddfec0f13b669ba = L.map(
+                "map_047bfd21e8e5cdeb3ddfec0f13b669ba",
                 {
                     center: [19.0479879, 72.84479479999996],
                     crs: L.CRS.EPSG3857,
@@ -55,37 +60,37 @@
 
         
     
-            var tile_layer_1babf8ac7c6b4bb7a712f81200718a93 = L.tileLayer(
+            var tile_layer_ac9e2258aadf146e3f10982afd9ad7ce = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            map_46d3c1dc5bc4432f87165b1e1ec009de.fitBounds(
+            map_047bfd21e8e5cdeb3ddfec0f13b669ba.fitBounds(
                 [[18.8725854, 72.7694558], [19.2233904, 72.9201337999999]],
                 {}
             );
         
     
-            var poly_line_2191796e6c0249e5b51f0b3a1b56fc62 = L.polyline(
-                [[19.0711775, 72.8543282], [19.0970133999999, 72.8266203], [18.9219841, 72.8346543], [18.9273983, 72.8316856], [18.9269015, 72.8326915999999], [18.9259588, 72.831385]],
+            var poly_line_4938008c20092af25427de4f40e7627b = L.polyline(
+                [[19.0711775, 72.8543282], [19.0970133999999, 72.8266203], [18.9219841, 72.8346543], [18.9298297, 72.8217287], [18.9296227, 72.8288877], [18.9259588, 72.831385]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var marker_2f2d6a2110b847b79b9f20c06e34ed23 = L.marker(
+            var marker_7365bc411422fd4d0fceb85a8f6445f7 = L.marker(
                 [19.0711775, 72.8543282],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_7783bfde827e45b7a4d46181d3ac7959 = L.AwesomeMarkers.icon(
+            var icon_81274d2ab00d0fa70ec8c82850dc2ddd = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_2f2d6a2110b847b79b9f20c06e34ed23.setIcon(icon_7783bfde827e45b7a4d46181d3ac7959);
+            marker_7365bc411422fd4d0fceb85a8f6445f7.setIcon(icon_81274d2ab00d0fa70ec8c82850dc2ddd);
         
     
-            marker_2f2d6a2110b847b79b9f20c06e34ed23.bindTooltip(
+            marker_7365bc411422fd4d0fceb85a8f6445f7.bindTooltip(
                 `<div>
                      1. Trident Hotel Bandra Kurla
                  </div>`,
@@ -93,19 +98,19 @@
             );
         
     
-            var marker_7ee732b8b93b40b1a48d9e89448999ac = L.marker(
+            var marker_2b6ce6992988eb6e160b3398fab1476e = L.marker(
                 [19.0970133999999, 72.8266203],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_998845a5cda641448d7a044678d3f2dd = L.AwesomeMarkers.icon(
+            var icon_4ea21a7b5aa8c373fcf19079f529ac22 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_7ee732b8b93b40b1a48d9e89448999ac.setIcon(icon_998845a5cda641448d7a044678d3f2dd);
+            marker_2b6ce6992988eb6e160b3398fab1476e.setIcon(icon_4ea21a7b5aa8c373fcf19079f529ac22);
         
     
-            marker_7ee732b8b93b40b1a48d9e89448999ac.bindTooltip(
+            marker_2b6ce6992988eb6e160b3398fab1476e.bindTooltip(
                 `<div>
                      2. Juhu Chowpatty
                  </div>`,
@@ -113,19 +118,19 @@
             );
         
     
-            var marker_5041f2846b4f4321949878aa2250f919 = L.marker(
+            var marker_c42f11c349583a60f3724ab66693cd3c = L.marker(
                 [18.9219841, 72.8346543],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_e7c644bb43194641bfa7bdbe46e5bed7 = L.AwesomeMarkers.icon(
+            var icon_3a7455e2157268683e30256d8827597b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_5041f2846b4f4321949878aa2250f919.setIcon(icon_e7c644bb43194641bfa7bdbe46e5bed7);
+            marker_c42f11c349583a60f3724ab66693cd3c.setIcon(icon_3a7455e2157268683e30256d8827597b);
         
     
-            marker_5041f2846b4f4321949878aa2250f919.bindTooltip(
+            marker_c42f11c349583a60f3724ab66693cd3c.bindTooltip(
                 `<div>
                      3. Gateway Of India Mumbai
                  </div>`,
@@ -133,59 +138,59 @@
             );
         
     
-            var marker_82cef7afb6934dafb8d411b72b16ea4d = L.marker(
-                [18.9273983, 72.8316856],
+            var marker_d9adf031353a4fdf51758ecdd6d9ff7b = L.marker(
+                [18.9298297, 72.8217287],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_4767ed8c31374949af3dce72716cec4b = L.AwesomeMarkers.icon(
+            var icon_463e4383cfd4d9a8b6274f8f0ca41c8b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_82cef7afb6934dafb8d411b72b16ea4d.setIcon(icon_4767ed8c31374949af3dce72716cec4b);
+            marker_d9adf031353a4fdf51758ecdd6d9ff7b.setIcon(icon_463e4383cfd4d9a8b6274f8f0ca41c8b);
         
     
-            marker_82cef7afb6934dafb8d411b72b16ea4d.bindTooltip(
+            marker_d9adf031353a4fdf51758ecdd6d9ff7b.bindTooltip(
                 `<div>
-                     4. Jehangir Art Gallery
+                     4. Queen's Necklace - Marine Drive
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_3d13d5f763a648c49cd03b6115302567 = L.marker(
-                [18.9269015, 72.8326915999999],
+            var marker_47a52877bbe9d3709841404a3bbf43b3 = L.marker(
+                [18.9296227, 72.8288877],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_daab0342df0b4a86ab1ecb3caa3ff8d3 = L.AwesomeMarkers.icon(
+            var icon_49d881a4a236b1109dc875048fce02f4 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_3d13d5f763a648c49cd03b6115302567.setIcon(icon_daab0342df0b4a86ab1ecb3caa3ff8d3);
+            marker_47a52877bbe9d3709841404a3bbf43b3.setIcon(icon_49d881a4a236b1109dc875048fce02f4);
         
     
-            marker_3d13d5f763a648c49cd03b6115302567.bindTooltip(
+            marker_47a52877bbe9d3709841404a3bbf43b3.bindTooltip(
                 `<div>
-                     5. Chhatrapati Shivaji Maharaj Vastu Sangrahalaya
+                     5. Oval Maidan
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_26c65d8a707d4c7ea87f9645afe70231 = L.marker(
+            var marker_302343d937a6364f3751eec77c400da8 = L.marker(
                 [18.9259588, 72.831385],
                 {}
-            ).addTo(map_46d3c1dc5bc4432f87165b1e1ec009de);
+            ).addTo(map_047bfd21e8e5cdeb3ddfec0f13b669ba);
         
     
-            var icon_43c25280c19a4a808cb324a00d9bed50 = L.AwesomeMarkers.icon(
+            var icon_dd39ef1ca77b07691e8168047f6a4f8c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_26c65d8a707d4c7ea87f9645afe70231.setIcon(icon_43c25280c19a4a808cb324a00d9bed50);
+            marker_302343d937a6364f3751eec77c400da8.setIcon(icon_dd39ef1ca77b07691e8168047f6a4f8c);
         
     
-            marker_26c65d8a707d4c7ea87f9645afe70231.bindTooltip(
+            marker_302343d937a6364f3751eec77c400da8.bindTooltip(
                 `<div>
                      6. National Gallery of Modern Art
                  </div>`,
@@ -193,3 +198,4 @@
             );
         
 </script>
+</html>

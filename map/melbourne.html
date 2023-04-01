@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<head>    
+<html>
+<head>
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -7,41 +9,44 @@
             L_DISABLE_3D = false;
         </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1aa55ece86f642e39505f9eee760c327 {
+                #map_20498a1f45e5edd03ed7ea30c104d530 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
+                .leaflet-container { font-size: 1rem; }
             </style>
         
 </head>
-<body>    
+<body>
     
-            <div class="folium-map" id="map_1aa55ece86f642e39505f9eee760c327" ></div>
+    
+            <div class="folium-map" id="map_20498a1f45e5edd03ed7ea30c104d530" ></div>
         
 </body>
-<script>    
+<script>
     
-            var map_1aa55ece86f642e39505f9eee760c327 = L.map(
-                "map_1aa55ece86f642e39505f9eee760c327",
+    
+            var map_20498a1f45e5edd03ed7ea30c104d530 = L.map(
+                "map_20498a1f45e5edd03ed7ea30c104d530",
                 {
                     center: [-37.83128219999995, 144.95840049999998],
                     crs: L.CRS.EPSG3857,
@@ -55,57 +60,57 @@
 
         
     
-            var tile_layer_ec438ecb61c54dd2bd5a6ecd249b9834 = L.tileLayer(
+            var tile_layer_7ac83571ea31bf7d725ccc41f5fdda97 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            map_1aa55ece86f642e39505f9eee760c327.fitBounds(
+            map_20498a1f45e5edd03ed7ea30c104d530.fitBounds(
                 [[-37.8997703, 144.88809669999998], [-37.7627940999999, 145.02870430000002]],
                 {}
             );
         
     
-            var poly_line_eb5606ea9d8c433d9e503aaecd2630e5 = L.polyline(
-                [[-37.822335, 144.9607308], [-37.8235301, 144.9580953], [-37.8075798, 144.956785], [-37.8098087, 144.9651897], [-37.8225942, 144.9689278], [-37.8213341, 144.9646982]],
+            var poly_line_9cb2d0cf469c8455b78f1e165f35c7b1 = L.polyline(
+                [[-37.8143056, 144.9671426], [-37.8235301, 144.9580953], [-37.8225942, 144.9689278], [-37.8199669, 144.9834493], [-37.8303689, 144.9796056], [-37.8075798, 144.956785], [-37.8305164, 144.9734319], [-37.8100833, 144.9764167]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            var marker_b347da8064ab4e79aa327fdf7c2c5e8d = L.marker(
-                [-37.822335, 144.9607308],
+            var marker_bc9d3c731af89944dbdf0ade8795725f = L.marker(
+                [-37.8143056, 144.9671426],
                 {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            var icon_16f59017ecb24c878a7f1073f3da7f5f = L.AwesomeMarkers.icon(
+            var icon_02c3726090c883f84514a01d394b792a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_b347da8064ab4e79aa327fdf7c2c5e8d.setIcon(icon_16f59017ecb24c878a7f1073f3da7f5f);
+            marker_bc9d3c731af89944dbdf0ade8795725f.setIcon(icon_02c3726090c883f84514a01d394b792a);
         
     
-            marker_b347da8064ab4e79aa327fdf7c2c5e8d.bindTooltip(
+            marker_bc9d3c731af89944dbdf0ade8795725f.bindTooltip(
                 `<div>
-                     1. Crown Towers Melbourne
+                     1. The Victoria Hotel
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_307e0b39fef346bbaa0131d49b516cc0 = L.marker(
+            var marker_402f358af6a8f7e1aa89c8a29625be9d = L.marker(
                 [-37.8235301, 144.9580953],
                 {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            var icon_126041827c5f47629a1fa6af003c87b8 = L.AwesomeMarkers.icon(
+            var icon_990c55854f682ec546427b2c2aa5094a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_307e0b39fef346bbaa0131d49b516cc0.setIcon(icon_126041827c5f47629a1fa6af003c87b8);
+            marker_402f358af6a8f7e1aa89c8a29625be9d.setIcon(icon_990c55854f682ec546427b2c2aa5094a);
         
     
-            marker_307e0b39fef346bbaa0131d49b516cc0.bindTooltip(
+            marker_402f358af6a8f7e1aa89c8a29625be9d.bindTooltip(
                 `<div>
                      2. Crown Melbourne
                  </div>`,
@@ -113,83 +118,124 @@
             );
         
     
-            var marker_04f991b9dde44fecb5a984cb1b43f965 = L.marker(
-                [-37.8075798, 144.956785],
-                {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
-        
-    
-            var icon_d3b9511d7b424e15966d7311f3c0f0ff = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_04f991b9dde44fecb5a984cb1b43f965.setIcon(icon_d3b9511d7b424e15966d7311f3c0f0ff);
-        
-    
-            marker_04f991b9dde44fecb5a984cb1b43f965.bindTooltip(
-                `<div>
-                     3. Queen Victoria Market
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_4281370263354780870996011dc56aaa = L.marker(
-                [-37.8098087, 144.9651897],
-                {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
-        
-    
-            var icon_d85489cad603481f8f21ce021b8aff86 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_4281370263354780870996011dc56aaa.setIcon(icon_d85489cad603481f8f21ce021b8aff86);
-        
-    
-            marker_4281370263354780870996011dc56aaa.bindTooltip(
-                `<div>
-                     4. State Library Victoria
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_d00bf6f5a18c4dc38380bdfe777e4518 = L.marker(
+            var marker_af9d2deca9f4e2978de8dfeb2a3f6a53 = L.marker(
                 [-37.8225942, 144.9689278],
                 {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            var icon_6a08d81f420644b2a3b9c288ac51a7e8 = L.AwesomeMarkers.icon(
+            var icon_9e6d7aa592abca60bb08d261c5f2b04f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_d00bf6f5a18c4dc38380bdfe777e4518.setIcon(icon_6a08d81f420644b2a3b9c288ac51a7e8);
+            marker_af9d2deca9f4e2978de8dfeb2a3f6a53.setIcon(icon_9e6d7aa592abca60bb08d261c5f2b04f);
         
     
-            marker_d00bf6f5a18c4dc38380bdfe777e4518.bindTooltip(
+            marker_af9d2deca9f4e2978de8dfeb2a3f6a53.bindTooltip(
                 `<div>
-                     5. National Gallery of Victoria
+                     3. National Gallery of Victoria
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_0473781349eb4c028bd3f20b93bf9010 = L.marker(
-                [-37.8213341, 144.9646982],
+            var marker_88f778d5143d92027bdd12aee758fc69 = L.marker(
+                [-37.8199669, 144.9834493],
                 {}
-            ).addTo(map_1aa55ece86f642e39505f9eee760c327);
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
         
     
-            var icon_825f6dff159a4aa09501a03d9c6dec72 = L.AwesomeMarkers.icon(
+            var icon_73b582674f3d8a5ad39fd63114b8e070 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0473781349eb4c028bd3f20b93bf9010.setIcon(icon_825f6dff159a4aa09501a03d9c6dec72);
+            marker_88f778d5143d92027bdd12aee758fc69.setIcon(icon_73b582674f3d8a5ad39fd63114b8e070);
         
     
-            marker_0473781349eb4c028bd3f20b93bf9010.bindTooltip(
+            marker_88f778d5143d92027bdd12aee758fc69.bindTooltip(
                 `<div>
-                     6. Eureka Skydeck
+                     4. Melbourne Cricket Ground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b264d6d8edd5f1d34e6ad4a0ccc217d = L.marker(
+                [-37.8303689, 144.9796056],
+                {}
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
+        
+    
+            var icon_c966c2e35f0c1fc6dc7f69bd9c34e2bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b264d6d8edd5f1d34e6ad4a0ccc217d.setIcon(icon_c966c2e35f0c1fc6dc7f69bd9c34e2bc);
+        
+    
+            marker_0b264d6d8edd5f1d34e6ad4a0ccc217d.bindTooltip(
+                `<div>
+                     5. Royal Botanic Gardens Victoria - Melbourne Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13a4f60c08c3e1255a668fcf418a2dc6 = L.marker(
+                [-37.8075798, 144.956785],
+                {}
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
+        
+    
+            var icon_f74d91fddd7ec63ef2b3c30306f34e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_13a4f60c08c3e1255a668fcf418a2dc6.setIcon(icon_f74d91fddd7ec63ef2b3c30306f34e2a);
+        
+    
+            marker_13a4f60c08c3e1255a668fcf418a2dc6.bindTooltip(
+                `<div>
+                     6. Queen Victoria Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a4b0d4423b0ba45d105c90ebe4c59b3 = L.marker(
+                [-37.8305164, 144.9734319],
+                {}
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
+        
+    
+            var icon_82de640d283a69665bb9216b895df7b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a4b0d4423b0ba45d105c90ebe4c59b3.setIcon(icon_82de640d283a69665bb9216b895df7b8);
+        
+    
+            marker_4a4b0d4423b0ba45d105c90ebe4c59b3.bindTooltip(
+                `<div>
+                     7. Shrine of Remembrance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31bb73b1ebba7abd765cebdf75baa809 = L.marker(
+                [-37.8100833, 144.9764167],
+                {}
+            ).addTo(map_20498a1f45e5edd03ed7ea30c104d530);
+        
+    
+            var icon_9a50484ab95a2ea78674c823ed445171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31bb73b1ebba7abd765cebdf75baa809.setIcon(icon_9a50484ab95a2ea78674c823ed445171);
+        
+    
+            marker_31bb73b1ebba7abd765cebdf75baa809.bindTooltip(
+                `<div>
+                     8. St Patrick's Cathedral
                  </div>`,
                 {"sticky": true}
             );
         
 </script>
+</html>

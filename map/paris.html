@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<head>    
+<html>
+<head>
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -7,41 +9,44 @@
             L_DISABLE_3D = false;
         </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_0fb69f50983b484ab9bddaa4f19b20e3 {
+                #map_ba6287283d3af2af9f92eafcc539f2bc {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
+                .leaflet-container { font-size: 1rem; }
             </style>
         
 </head>
-<body>    
+<body>
     
-            <div class="folium-map" id="map_0fb69f50983b484ab9bddaa4f19b20e3" ></div>
+    
+            <div class="folium-map" id="map_ba6287283d3af2af9f92eafcc539f2bc" ></div>
         
 </body>
-<script>    
+<script>
     
-            var map_0fb69f50983b484ab9bddaa4f19b20e3 = L.map(
-                "map_0fb69f50983b484ab9bddaa4f19b20e3",
+    
+            var map_ba6287283d3af2af9f92eafcc539f2bc = L.map(
+                "map_ba6287283d3af2af9f92eafcc539f2bc",
                 {
                     center: [48.85212135, 2.34957645],
                     crs: L.CRS.EPSG3857,
@@ -55,141 +60,162 @@
 
         
     
-            var tile_layer_c1fd420d95a54b2cbb9819c9713c6db0 = L.tileLayer(
+            var tile_layer_b846fe8d478a74401dca73900491fd2e = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            map_0fb69f50983b484ab9bddaa4f19b20e3.fitBounds(
+            map_ba6287283d3af2af9f92eafcc539f2bc.fitBounds(
                 [[48.7659442, 2.2334126000000003], [48.938298499999995, 2.4657402999999998]],
                 {}
             );
         
     
-            var poly_line_c690cbe42e4f4660b28d821949161ec3 = L.polyline(
-                [[48.8389338, 2.3804919], [48.8583700999999, 2.2944813], [48.8606111, 2.337644], [48.8565289999999, 2.3127059], [48.8867045999999, 2.3431043], [48.8656331, 2.3212357]],
+            var poly_line_2e633facd811f912c9971e97144e17b5 = L.polyline(
+                [[48.8500283, 2.2834126], [48.8615963, 2.2892823], [48.8583700999999, 2.2944813], [48.8606111, 2.337644], [48.8737917, 2.29502749999999], [48.8462217, 2.3371605], [48.8433287, 2.3609587]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var marker_6f9ef41a73694abebffeb87b9a639363 = L.marker(
-                [48.8389338, 2.3804919],
+            var marker_7e417fe36a6f3f79e62890984748f5ad = L.marker(
+                [48.8500283, 2.2834126],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_f3b4b6e4a4034f9a8ae457a461f700f8 = L.AwesomeMarkers.icon(
+            var icon_0837b426381933f2adb120c3c7330c22 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_6f9ef41a73694abebffeb87b9a639363.setIcon(icon_f3b4b6e4a4034f9a8ae457a461f700f8);
+            marker_7e417fe36a6f3f79e62890984748f5ad.setIcon(icon_0837b426381933f2adb120c3c7330c22);
         
     
-            marker_6f9ef41a73694abebffeb87b9a639363.bindTooltip(
+            marker_7e417fe36a6f3f79e62890984748f5ad.bindTooltip(
                 `<div>
-                     1. Novotel Paris Centre Bercy
+                     1. Novotel Tour Eiffel Hotel
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_4859fc5d390b471f8f56ab1aef737f1b = L.marker(
+            var marker_a093fb26785875b24d0d0449939f9074 = L.marker(
+                [48.8615963, 2.2892823],
+                {}
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
+        
+    
+            var icon_7083edbc1e2a0623139f16e95bc9e77c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a093fb26785875b24d0d0449939f9074.setIcon(icon_7083edbc1e2a0623139f16e95bc9e77c);
+        
+    
+            marker_a093fb26785875b24d0d0449939f9074.bindTooltip(
+                `<div>
+                     2. Trocadero Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3dac5cef64cd692c9d233671fdc0385 = L.marker(
                 [48.8583700999999, 2.2944813],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_ac505b2d07cb4b54a275a0be8ba37549 = L.AwesomeMarkers.icon(
+            var icon_93ba538bebf5e299fde1a159c6c00a9f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_4859fc5d390b471f8f56ab1aef737f1b.setIcon(icon_ac505b2d07cb4b54a275a0be8ba37549);
+            marker_c3dac5cef64cd692c9d233671fdc0385.setIcon(icon_93ba538bebf5e299fde1a159c6c00a9f);
         
     
-            marker_4859fc5d390b471f8f56ab1aef737f1b.bindTooltip(
+            marker_c3dac5cef64cd692c9d233671fdc0385.bindTooltip(
                 `<div>
-                     2. Eiffel Tower
+                     3. Eiffel Tower
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_7bb94d70545c4ef797c326ff922841c8 = L.marker(
+            var marker_f44cc4483fbd37df8bec8c582d80596e = L.marker(
                 [48.8606111, 2.337644],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_e18af4fcb09a42e49c366c47d9a147d5 = L.AwesomeMarkers.icon(
+            var icon_41fb0f7ba637125cb57a256a130a9d1c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_7bb94d70545c4ef797c326ff922841c8.setIcon(icon_e18af4fcb09a42e49c366c47d9a147d5);
+            marker_f44cc4483fbd37df8bec8c582d80596e.setIcon(icon_41fb0f7ba637125cb57a256a130a9d1c);
         
     
-            marker_7bb94d70545c4ef797c326ff922841c8.bindTooltip(
+            marker_f44cc4483fbd37df8bec8c582d80596e.bindTooltip(
                 `<div>
-                     3. Louvre Museum
+                     4. Louvre Museum
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_2c188ceb891549209a3245de824852e3 = L.marker(
-                [48.8565289999999, 2.3127059],
+            var marker_e86a642da97d18b583d9a4d37e630e23 = L.marker(
+                [48.8737917, 2.29502749999999],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_a91707619afe4ee2ac141dda4b051490 = L.AwesomeMarkers.icon(
+            var icon_7a45e1a94ec5198863e400927c522d01 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_2c188ceb891549209a3245de824852e3.setIcon(icon_a91707619afe4ee2ac141dda4b051490);
+            marker_e86a642da97d18b583d9a4d37e630e23.setIcon(icon_7a45e1a94ec5198863e400927c522d01);
         
     
-            marker_2c188ceb891549209a3245de824852e3.bindTooltip(
+            marker_e86a642da97d18b583d9a4d37e630e23.bindTooltip(
                 `<div>
-                     4. Les Invalides
+                     5. Arc de Triomphe
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_46b53089ff984a02906c9b09c3a8fcd9 = L.marker(
-                [48.8867045999999, 2.3431043],
+            var marker_0a9e5ee4646c5951e5302182ef988330 = L.marker(
+                [48.8462217, 2.3371605],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_a48b98e57c264dc9aaee00e99c8f8c5e = L.AwesomeMarkers.icon(
+            var icon_c187d8cb9bd47cd3f2cba7c8a822ca5c = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_46b53089ff984a02906c9b09c3a8fcd9.setIcon(icon_a48b98e57c264dc9aaee00e99c8f8c5e);
+            marker_0a9e5ee4646c5951e5302182ef988330.setIcon(icon_c187d8cb9bd47cd3f2cba7c8a822ca5c);
         
     
-            marker_46b53089ff984a02906c9b09c3a8fcd9.bindTooltip(
+            marker_0a9e5ee4646c5951e5302182ef988330.bindTooltip(
                 `<div>
-                     5. Sacre-Coeur
+                     6. Luxembourg Gardens
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_cf5d879a20ea4b9980e5dac02b37a7bf = L.marker(
-                [48.8656331, 2.3212357],
+            var marker_7eefadc5a88dd72c335013c9ad33cbf7 = L.marker(
+                [48.8433287, 2.3609587],
                 {}
-            ).addTo(map_0fb69f50983b484ab9bddaa4f19b20e3);
+            ).addTo(map_ba6287283d3af2af9f92eafcc539f2bc);
         
     
-            var icon_79aa6c4f7cb74b1db6dd61d072489b53 = L.AwesomeMarkers.icon(
+            var icon_d7c501ff0a3ac5eccff8e438eb8bc24a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_cf5d879a20ea4b9980e5dac02b37a7bf.setIcon(icon_79aa6c4f7cb74b1db6dd61d072489b53);
+            marker_7eefadc5a88dd72c335013c9ad33cbf7.setIcon(icon_d7c501ff0a3ac5eccff8e438eb8bc24a);
         
     
-            marker_cf5d879a20ea4b9980e5dac02b37a7bf.bindTooltip(
+            marker_7eefadc5a88dd72c335013c9ad33cbf7.bindTooltip(
                 `<div>
-                     6. Place de la Concorde
+                     7. Jardin des Plantes
                  </div>`,
                 {"sticky": true}
             );
         
 </script>
+</html>

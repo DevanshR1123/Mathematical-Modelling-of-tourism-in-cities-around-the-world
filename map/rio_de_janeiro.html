@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<head>    
+<html>
+<head>
+    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -7,41 +9,44 @@
             L_DISABLE_3D = false;
         </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_739b46d87c9042a1bcf830e1ea270b82 {
+                #map_c4e3b142dda0265b8af74b10a24f4376 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
+                .leaflet-container { font-size: 1rem; }
             </style>
         
 </head>
-<body>    
+<body>
     
-            <div class="folium-map" id="map_739b46d87c9042a1bcf830e1ea270b82" ></div>
+    
+            <div class="folium-map" id="map_c4e3b142dda0265b8af74b10a24f4376" ></div>
         
 </body>
-<script>    
+<script>
     
-            var map_739b46d87c9042a1bcf830e1ea270b82 = L.map(
-                "map_739b46d87c9042a1bcf830e1ea270b82",
+    
+            var map_c4e3b142dda0265b8af74b10a24f4376 = L.map(
+                "map_c4e3b142dda0265b8af74b10a24f4376",
                 {
                     center: [-22.9160833, -43.27119285],
                     crs: L.CRS.EPSG3857,
@@ -55,97 +60,97 @@
 
         
     
-            var tile_layer_f006d2b6a3bf4f5090680a828570985a = L.tileLayer(
+            var tile_layer_4e93f6db01697000addae287d104347d = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            map_739b46d87c9042a1bcf830e1ea270b82.fitBounds(
+            map_c4e3b142dda0265b8af74b10a24f4376.fitBounds(
                 [[-23.064751400000002, -43.425051599999996], [-22.7674152, -43.1173341]],
                 {}
             );
         
     
-            var poly_line_4b61e7d2d284498d866056fabbf16470 = L.polyline(
-                [[-22.96731, -43.1793323], [-22.9153317, -43.1777908], [-22.8947155, -43.1797443], [-22.9121089, -43.2301558], [-22.951916, -43.2104872], [-22.9581535, -43.2116428999999], [-22.9449649, -43.1964192999999]],
+            var poly_line_ff4e8e0f2e0d580f90baa714e2536db7 = L.polyline(
+                [[-22.9921466, -43.2332921999999], [-22.8947155, -43.1797443], [-22.8981056, -43.2198181], [-22.9121089, -43.2301558], [-22.8966557999999, -43.1819564999999], [-22.8957843, -43.1795609]],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var marker_06b78d78137c411e8c00fb6bdde68e86 = L.marker(
-                [-22.96731, -43.1793323],
+            var marker_7385027f008ee65c8e47f9eafb9201f1 = L.marker(
+                [-22.9921466, -43.2332921999999],
                 {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var icon_0604ff14d2e2405ab96c1e2fe13558d4 = L.AwesomeMarkers.icon(
+            var icon_aff46cfdabcbc70e960a8a264e0dcbb8 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_06b78d78137c411e8c00fb6bdde68e86.setIcon(icon_0604ff14d2e2405ab96c1e2fe13558d4);
+            marker_7385027f008ee65c8e47f9eafb9201f1.setIcon(icon_aff46cfdabcbc70e960a8a264e0dcbb8);
         
     
-            marker_06b78d78137c411e8c00fb6bdde68e86.bindTooltip(
+            marker_7385027f008ee65c8e47f9eafb9201f1.bindTooltip(
                 `<div>
-                     1. Belmond Copacabana Palace
+                     1. Sheraton Grand Rio Hotel & Resort
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_510b0375ea5341e38bfd58fa516c540d = L.marker(
-                [-22.9153317, -43.1777908],
-                {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
-        
-    
-            var icon_2c7773c96c184690a5643afdcd8ab812 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_510b0375ea5341e38bfd58fa516c540d.setIcon(icon_2c7773c96c184690a5643afdcd8ab812);
-        
-    
-            marker_510b0375ea5341e38bfd58fa516c540d.bindTooltip(
-                `<div>
-                     2. Escadaria Selaron
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_0bb597fcb6794246b1c606216dde0f51 = L.marker(
+            var marker_e59fb7ae7939f891a3c8221a046aa02b = L.marker(
                 [-22.8947155, -43.1797443],
                 {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var icon_a3bfb18ac48741308dd58949136a81f3 = L.AwesomeMarkers.icon(
+            var icon_3fb6027d5979c781edbf6bb60f609632 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0bb597fcb6794246b1c606216dde0f51.setIcon(icon_a3bfb18ac48741308dd58949136a81f3);
+            marker_e59fb7ae7939f891a3c8221a046aa02b.setIcon(icon_3fb6027d5979c781edbf6bb60f609632);
         
     
-            marker_0bb597fcb6794246b1c606216dde0f51.bindTooltip(
+            marker_e59fb7ae7939f891a3c8221a046aa02b.bindTooltip(
                 `<div>
-                     3. Museu do Amanha
+                     2. Museu do Amanha
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_5aeb8e456f014b989e162241348737c6 = L.marker(
-                [-22.9121089, -43.2301558],
+            var marker_0c699339093c8e2e4701179b90e936be = L.marker(
+                [-22.8981056, -43.2198181],
                 {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var icon_edc30000563f4322a441b01da5b9c22d = L.AwesomeMarkers.icon(
+            var icon_a61ac64851987107d307e8aa35e6f2d0 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_5aeb8e456f014b989e162241348737c6.setIcon(icon_edc30000563f4322a441b01da5b9c22d);
+            marker_0c699339093c8e2e4701179b90e936be.setIcon(icon_a61ac64851987107d307e8aa35e6f2d0);
         
     
-            marker_5aeb8e456f014b989e162241348737c6.bindTooltip(
+            marker_0c699339093c8e2e4701179b90e936be.bindTooltip(
+                `<div>
+                     3. Feira de Sao Cristovao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_083add8b4bad466eee601e046717351e = L.marker(
+                [-22.9121089, -43.2301558],
+                {}
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
+        
+    
+            var icon_b76d80d3296262f0b335142967d541cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_083add8b4bad466eee601e046717351e.setIcon(icon_b76d80d3296262f0b335142967d541cf);
+        
+    
+            marker_083add8b4bad466eee601e046717351e.bindTooltip(
                 `<div>
                      4. Maracana
                  </div>`,
@@ -153,63 +158,44 @@
             );
         
     
-            var marker_03b0cc94f0ad4219a1fc40f2dda583cf = L.marker(
-                [-22.951916, -43.2104872],
+            var marker_7c54e83ddfb501d1ced0b7af3a4d5162 = L.marker(
+                [-22.8966557999999, -43.1819564999999],
                 {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var icon_306cf61353a8461f8814b8c878337ba1 = L.AwesomeMarkers.icon(
+            var icon_35339e3470808968ef1a9522cdde6305 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_03b0cc94f0ad4219a1fc40f2dda583cf.setIcon(icon_306cf61353a8461f8814b8c878337ba1);
+            marker_7c54e83ddfb501d1ced0b7af3a4d5162.setIcon(icon_35339e3470808968ef1a9522cdde6305);
         
     
-            marker_03b0cc94f0ad4219a1fc40f2dda583cf.bindTooltip(
+            marker_7c54e83ddfb501d1ced0b7af3a4d5162.bindTooltip(
                 `<div>
-                     5. Christ the Redeemer
+                     5. Museu de Arte do Rio
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_f96680498846419aa9bde5c512b8edc1 = L.marker(
-                [-22.9581535, -43.2116428999999],
+            var marker_6566395f3094e37170a805c8858b39a4 = L.marker(
+                [-22.8957843, -43.1795609],
                 {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
+            ).addTo(map_c4e3b142dda0265b8af74b10a24f4376);
         
     
-            var icon_66d202d7b7714f7a8643d3997eb2b8c5 = L.AwesomeMarkers.icon(
+            var icon_2ab6614659ba136e63c47ac602b00a4b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_f96680498846419aa9bde5c512b8edc1.setIcon(icon_66d202d7b7714f7a8643d3997eb2b8c5);
+            marker_6566395f3094e37170a805c8858b39a4.setIcon(icon_2ab6614659ba136e63c47ac602b00a4b);
         
     
-            marker_f96680498846419aa9bde5c512b8edc1.bindTooltip(
+            marker_6566395f3094e37170a805c8858b39a4.bindTooltip(
                 `<div>
-                     6. Parque Lage
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_05c60b5a9160446897b3040151d30c84 = L.marker(
-                [-22.9449649, -43.1964192999999],
-                {}
-            ).addTo(map_739b46d87c9042a1bcf830e1ea270b82);
-        
-    
-            var icon_6ea24252c1114575a6b3d4ac28ecc097 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "lightgray", "markerColor": "red", "prefix": "glyphicon"}
-            );
-            marker_05c60b5a9160446897b3040151d30c84.setIcon(icon_6ea24252c1114575a6b3d4ac28ecc097);
-        
-    
-            marker_05c60b5a9160446897b3040151d30c84.bindTooltip(
-                `<div>
-                     7. Mirante Dona Marta
+                     6. Boulevard Olimpico
                  </div>`,
                 {"sticky": true}
             );
         
 </script>
+</html>
